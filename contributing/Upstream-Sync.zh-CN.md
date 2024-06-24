@@ -23,22 +23,22 @@
 
 ## `B` Docker 部署
 
-Docker 部署版本的升级非常简单，只需要重新部署 LobeChat 的最新镜像即可。 以下是执行这些步骤所需的指令：
+Docker 部署版本的升级非常简单，只需要重新部署 AiPMChat 的最新镜像即可。 以下是执行这些步骤所需的指令：
 
-1. 停止并删除当前运行的 LobeChat 容器（假设 LobeChat 容器的名称是 `lobe-chat`）：
+1. 停止并删除当前运行的 AiPMChat 容器（假设 AiPMChat 容器的名称是 `lobe-chat`）：
 
 ```fish
 docker stop lobe-chat
 docker rm lobe-chat
 ```
 
-2. 拉取 LobeChat 的最新 Docker 镜像：
+2. 拉取 AiPMChat 的最新 Docker 镜像：
 
 ```fish
 docker pull lobehub/lobe-chat
 ```
 
-3. 使用新拉取的镜像重新部署 LobeChat 容器：
+3. 使用新拉取的镜像重新部署 AiPMChat 容器：
 
 ```fish
 docker run -d -p 3210:3210 \
@@ -55,4 +55,4 @@ docker run -d -p 3210:3210 \
 >
 > 重新部署的话，我本地的聊天记录会丢失吗？
 >
-> 放心，LobeChat 的聊天记录全部都存储在你的本地浏览器中。因此使用 Docker 重新部署 LobeChat 时，你的聊天记录并不会丢失。
+> 放心，AiPMChat 的聊天记录全部都存储在你的本地浏览器中。因此使用 Docker 重新部署 AiPMChat 时，你的聊天记录并不会丢失。

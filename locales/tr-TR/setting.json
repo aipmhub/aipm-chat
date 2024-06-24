@@ -69,7 +69,7 @@
           "title": "Model Görüntü Adı"
         },
         "files": {
-          "extra": "Mevcut LobeChat dosya yükleme uygulaması sadece bir hile çözümüdür, tam dosya yükleme yeteneği için gelecek uygulamaları bekleyin",
+          "extra": "Mevcut AiPMChat dosya yükleme uygulaması sadece bir hile çözümüdür, tam dosya yükleme yeteneği için gelecek uygulamaları bekleyin",
           "title": "Dosya Yükleme Desteği"
         },
         "functionCall": {

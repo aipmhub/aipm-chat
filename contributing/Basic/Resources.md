@@ -1,6 +1,6 @@
 # Resources and References
 
-The design and development of LobeChat would not have been possible without the excellent projects in the community and ecosystem. We have used or referred to some outstanding resources and guides in the design and development process. Here are some key reference resources for developers to refer to during the development and learning process:
+The design and development of AiPMChat would not have been possible without the excellent projects in the community and ecosystem. We have used or referred to some outstanding resources and guides in the design and development process. Here are some key reference resources for developers to refer to during the development and learning process:
 
 1. **OpenAI API Guide**: We use OpenAI's API to access and process AI conversation data. You can check out the [OpenAI API Guide](https://platform.openai.com/docs/api-reference/introduction) for more details.
 
@@ -14,6 +14,6 @@ The design and development of LobeChat would not have been possible without the 
 
 6. **Next.js Documentation**: Our project is built on Next.js, and you can refer to the [Next.js Documentation](https://nextjs.org/docs) for more information about Next.js.
 
-7. **FlowGPT**: FlowGPT is currently the world's largest Prompt community, and some of the agents in LobeChat come from active authors in FlowGPT. You can visit [FlowGPT](https://flowgpt.com/) to learn more about it.
+7. **FlowGPT**: FlowGPT is currently the world's largest Prompt community, and some of the agents in AiPMChat come from active authors in FlowGPT. You can visit [FlowGPT](https://flowgpt.com/) to learn more about it.
 
 We will continue to update and supplement this list to provide developers with more reference resources.

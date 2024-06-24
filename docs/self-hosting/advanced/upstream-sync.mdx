@@ -1,7 +1,7 @@
 ---
-title: LobeChat Upstream Sync and Docker Deployment Guide
+title: AiPMChat Upstream Sync and Docker Deployment Guide
 description: >-
-  Learn how to enable automatic updates for LobeChat Vercel deployments and
+  Learn how to enable automatic updates for AiPMChat Vercel deployments and
   upgrade Docker deployment versions easily. Follow step-by-step instructions
   for a seamless deployment process.
 tags:
@@ -42,19 +42,19 @@ After forking the project, due to Github's limitations, you need to manually ena
 
 ## `B` Docker Deployment
 
-Upgrading the Docker deployment version is very simple, you just need to redeploy the latest LobeChat image. Here are the commands required to perform these steps:
+Upgrading the Docker deployment version is very simple, you just need to redeploy the latest AiPMChat image. Here are the commands required to perform these steps:
 
 <Steps>
-  ### Stop and Remove the Current Running LobeChat Container
+  ### Stop and Remove the Current Running AiPMChat Container
 
-Assuming the LobeChat container is named `lobe-chat`, use the following commands to stop and remove the currently running LobeChat container:
+Assuming the AiPMChat container is named `lobe-chat`, use the following commands to stop and remove the currently running AiPMChat container:
 
 ```fish
 docker stop lobe-chat
 docker rm lobe-chat
 ```
 
-### Pull the Latest LobeChat Image
+### Pull the Latest AiPMChat Image
 
 Use the following command to pull the latest Docker image for LobeChat:
 
@@ -64,7 +64,7 @@ docker pull lobehub/lobe-chat
 
 ### Restart the Docker Container
 
-Redeploy the LobeChat container using the newly pulled image:
+Redeploy the AiPMChat container using the newly pulled image:
 
 ```fish
 docker run -d -p 3210:3210 \
@@ -82,7 +82,7 @@ Ensure that you have sufficient permissions to stop and remove the container bef
 <Callout type={'tip'}>
   **If I redeploy, will I lose my local chat records?**
 
-No need to worry, you won't. All of LobeChat's chat records are stored in your local browser. Therefore, when redeploying LobeChat using Docker, your chat records will not be lost.
+No need to worry, you won't. All of LobeChat's chat records are stored in your local browser. Therefore, when redeploying AiPMChat using Docker, your chat records will not be lost.
 
 </Callout>
 

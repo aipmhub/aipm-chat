@@ -1,6 +1,6 @@
 # New Locale Guide
 
-LobeChat uses [lobe-i18n](https://github.com/lobehub/lobe-cli-toolbox/tree/master/packages/lobe-i18n) as the i18n solution, which allows for quick addition of new language support in the application.
+AiPMChat uses [lobe-i18n](https://github.com/lobehub/lobe-cli-toolbox/tree/master/packages/lobe-i18n) as the i18n solution, which allows for quick addition of new language support in the application.
 
 ## TOC
 
@@ -12,7 +12,7 @@ LobeChat uses [lobe-i18n](https://github.com/lobehub/lobe-cli-toolbox/tree/maste
 
 ## Adding New Language Support
 
-To add new language internationalization support in LobeChat (for example, adding Vietnamese `vi-VN`), please follow the steps below:
+To add new language internationalization support in AiPMChat (for example, adding Vietnamese `vi-VN`), please follow the steps below:
 
 ### Step 1: Update the Internationalization Configuration File
 
@@ -37,7 +37,7 @@ module.exports = {
 
 ### Step 2: Automatically Translate Language Files
 
-LobeChat uses the `lobe-i18n` tool to automatically translate language files, so manual updating of i18n files is not required.
+AiPMChat uses the `lobe-i18n` tool to automatically translate language files, so manual updating of i18n files is not required.
 
 Run the following command to automatically translate and generate the Vietnamese language files:
 
@@ -56,7 +56,7 @@ Ensure that you follow LobeChat's contribution guidelines and provide a necessar
 ### Additional Information
 
 - After submitting your Pull Request, please patiently wait for the project maintainers to review it.
-- If you encounter any issues, you can reach out to the LobeChat community for assistance.
+- If you encounter any issues, you can reach out to the AiPMChat community for assistance.
 - For more accurate results, ensure that your Pull Request is based on the latest main branch and stays in sync with the main branch.
 
-By following the above steps, you can successfully add new language support to LobeChat and ensure that the application provides a localized experience for more users.
+By following the above steps, you can successfully add new language support to AiPMChat and ensure that the application provides a localized experience for more users.

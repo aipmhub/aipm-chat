@@ -1,12 +1,12 @@
 # 状态管理最佳实践
 
-LobeChat 不同于传统 CRUD 的网页，存在大量的富交互能力，如何设计一个易于开发与易于维护的数据流架构非常重要。本篇文档将介绍 LobeChat 中的数据流管理最佳实践。
+AiPMChat 不同于传统 CRUD 的网页，存在大量的富交互能力，如何设计一个易于开发与易于维护的数据流架构非常重要。本篇文档将介绍 AiPMChat 中的数据流管理最佳实践。
 
 ## TOC
 
 - [概念要素](#概念要素)
 - [结构分层](#结构分层)
-  - [LobeChat SessionStore 目录结构最佳实践](#lobechat-sessionstore-目录结构最佳实践)
+  - [AiPMChat SessionStore 目录结构最佳实践](#aipmchat-sessionstore-目录结构最佳实践)
 - [SessionStore 的实现](#sessionstore-的实现)
 
 ## 概念要素
@@ -72,7 +72,7 @@ SortableTree/store
 下述这个数据流的目录结构是之前一版 SessionStore，具有很高的复杂度，实现了大量的业务逻辑。但借助于 slice 的模块化和分形架构的心智，我们可以很容易地找到对应的模块，新增功能与迭代都很易于维护。
 
 ```bash
-LobeChat SessionStore
+AiPMChat SessionStore
 ├── index.ts
 ├── initialState.ts
 ├── selectors.ts
@@ -112,9 +112,9 @@ LobeChat SessionStore
 └── store.ts
 ```
 
-### LobeChat SessionStore 目录结构最佳实践
+### AiPMChat SessionStore 目录结构最佳实践
 
-在 LobeChat 应用中，由于会话管理是一个复杂的功能模块，因此我们采用了 [slice 模式](https://github.com/pmndrs/zustand/blob/main/docs/guides/slices-pattern.md) 来组织数据流。下面是 LobeChat SessionStore 的目录结构，其中每个目录和文件都有其特定的用途：
+在 AiPMChat 应用中，由于会话管理是一个复杂的功能模块，因此我们采用了 [slice 模式](https://github.com/pmndrs/zustand/blob/main/docs/guides/slices-pattern.md) 来组织数据流。下面是 AiPMChat SessionStore 的目录结构，其中每个目录和文件都有其特定的用途：
 
 ```fish
 src/store/session
@@ -141,7 +141,7 @@ src/store/session
 
 ## SessionStore 的实现
 
-在 LobeChat 中，SessionStore 被设计为管理会话状态和逻辑的核心模块。它由多个 Slices 组成，每个 Slice 管理一部分相关的状态和逻辑。下面是一个简化的 SessionStore 的实现示例：
+在 AiPMChat 中，SessionStore 被设计为管理会话状态和逻辑的核心模块。它由多个 Slices 组成，每个 Slice 管理一部分相关的状态和逻辑。下面是一个简化的 SessionStore 的实现示例：
 
 #### store.ts
 
@@ -213,4 +213,4 @@ export const createSessionSlice: StateCreator<
 
 在 `action.ts` 文件中，我们定义了一个 `SessionActions` 接口来描述会话相关的动作，并且实现了一个 `useFetchSessions` 函数来创建这些动作。然后，我们将这些动作与初始状态合并，以形成会话相关的 Slice。
 
-通过这种结构分层和模块化的方法，我们可以确保 LobeChat 的 SessionStore 是清晰、可维护的，同时也便于扩展和测试。
+通过这种结构分层和模块化的方法，我们可以确保 AiPMChat 的 SessionStore 是清晰、可维护的，同时也便于扩展和测试。

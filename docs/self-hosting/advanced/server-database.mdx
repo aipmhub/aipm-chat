@@ -1,7 +1,7 @@
 ---
-title: Deploying Server-Side Database - Configuration Guide for LobeChat on Vercel
+title: Deploying Server-Side Database - Configuration Guide for AiPMChat on Vercel
 description: >-
-  Learn how to deploy the server-side database version of LobeChat on Vercel,
+  Learn how to deploy the server-side database version of AiPMChat on Vercel,
   including database configuration, identity authentication service setup, and
   S3 storage service configuration.
 tags:
@@ -15,9 +15,9 @@ tags:
 
 # Deploying Server-Side Database
 
-LobeChat defaults to using a client-side database (IndexedDB) but also supports using a server-side database. LobeChat uses Postgres as the backend storage database. PostgreSQL is a powerful open-source relational database management system with high scalability and standard SQL support. It provides rich data types, concurrency control, data integrity, security, and programmability, making it suitable for complex applications and large-scale data management.
+AiPMChat defaults to using a client-side database (IndexedDB) but also supports using a server-side database. AiPMChat uses Postgres as the backend storage database. PostgreSQL is a powerful open-source relational database management system with high scalability and standard SQL support. It provides rich data types, concurrency control, data integrity, security, and programmability, making it suitable for complex applications and large-scale data management.
 
-This article will detail how to deploy the server-side database version of LobeChat on Vercel, including: 1) database configuration; 2) identity authentication service configuration; 3) steps for setting up the S3 storage service.
+This article will detail how to deploy the server-side database version of AiPMChat on Vercel, including: 1) database configuration; 2) identity authentication service configuration; 3) steps for setting up the S3 storage service.
 
 <Callout type={'info'}>
   Due to workload constraints, currently only deployment on Vercel using the server-side database
@@ -195,7 +195,7 @@ You have now successfully configured the Clerk identity authentication service. 
 
 ## 3. Configure S3 Storage Service
 
-LobeChat has long supported multimodal AI conversations, involving the function of uploading images to AI. In the client-side database solution, image files are stored as binary data in the browser's indexedDB database. However, this solution is not feasible in the server-side database. We need to configure the S3 storage service to store a large number of image files, and S3 can also serve as a storage solution for file uploads.
+AiPMChat has long supported multimodal AI conversations, involving the function of uploading images to AI. In the client-side database solution, image files are stored as binary data in the browser's indexedDB database. However, this solution is not feasible in the server-side database. We need to configure the S3 storage service to store a large number of image files, and S3 can also serve as a storage solution for file uploads.
 
 <Callout type={'info'}>
   In this article, S3 refers to a compatible S3 storage solution, which supports object storage
@@ -245,7 +245,7 @@ NEXT_PUBLIC_S3_DOMAIN=https://s3-for-lobechat.your-domain.com
 
 ### Obtain S3 Key Environment Variables
 
-You need to obtain the access key for S3 so that the LobeChat server has permission to access the S3 storage service. In R2, you can configure the access key in the account details:
+You need to obtain the access key for S3 so that the AiPMChat server has permission to access the S3 storage service. In R2, you can configure the access key in the account details:
 
 <Image
   alt={'View Access Key for Bucket'}
@@ -343,7 +343,7 @@ After configuration, click save.
 
 ## 4. Deployment and Verification
 
-After completing the above steps, the configuration of the server database should be done. Next, we can deploy LobeChat to Vercel and then visit your Vercel link to verify if the server database is working correctly.
+After completing the above steps, the configuration of the server database should be done. Next, we can deploy AiPMChat to Vercel and then visit your Vercel link to verify if the server database is working correctly.
 
 <Steps>
   ### Redeploy the latest commit

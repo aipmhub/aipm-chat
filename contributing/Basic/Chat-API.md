@@ -133,4 +133,4 @@ export const fetchSSE = async (fetchFn: () => Promise<Response>, options: FetchS
 };
 ```
 
-The above is the core implementation of the LobeChat session API. With an understanding of these core codes, further expansion and optimization of LobeChat's AI functionality can be achieved.
+The above is the core implementation of the AiPMChat session API. With an understanding of these core codes, further expansion and optimization of LobeChat's AI functionality can be achieved.

@@ -1,6 +1,6 @@
 # 代码风格与贡献指南
 
-欢迎来到 LobeChat 的代码风格与贡献指南。本指南将帮助您理解我们的代码规范和贡献流程，确保代码的一致性和项目的顺利进行。
+欢迎来到 AiPMChat 的代码风格与贡献指南。本指南将帮助您理解我们的代码规范和贡献流程，确保代码的一致性和项目的顺利进行。
 
 ## TOC
 
@@ -17,7 +17,7 @@
 
 ## 代码风格
 
-在 LobeChat 中，我们使用 `@lobehub/lint` 程序包来统一代码风格。该程序包内置了 `ESLint`、`Prettier`、`remarklint` 和 `stylelint` 的配置，以确保我们的 JavaScript、Markdown 和 CSS 文件遵循相同的编码标准。
+在 AiPMChat 中，我们使用 `@lobehub/lint` 程序包来统一代码风格。该程序包内置了 `ESLint`、`Prettier`、`remarklint` 和 `stylelint` 的配置，以确保我们的 JavaScript、Markdown 和 CSS 文件遵循相同的编码标准。
 
 ### ESLint
 
@@ -45,7 +45,7 @@ Prettier 负责代码格式化，以保证代码的一致性。您可以在 `.pr
 
 ## 贡献流程
 
-LobeChat 采用 gitmoji 和 semantic release 作为我们的代码提交和发布流程。
+AiPMChat 采用 gitmoji 和 semantic release 作为我们的代码提交和发布流程。
 
 ### Gitmoji
 

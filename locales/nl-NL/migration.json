@@ -10,7 +10,7 @@
     "clear": {
       "confirm": "Lokale gegevens worden binnenkort gewist (globale instellingen blijven ongewijzigd). Zorg ervoor dat je een gegevensback-up hebt gedownload."
     },
-    "description": "In de nieuwe versie heeft LobeChat een enorme sprong gemaakt in gegevensopslag. Daarom moeten we de oude versiegegevens upgraden om je een betere gebruikerservaring te bieden.",
+    "description": "In de nieuwe versie heeft AiPMChat een enorme sprong gemaakt in gegevensopslag. Daarom moeten we de oude versiegegevens upgraden om je een betere gebruikerservaring te bieden.",
     "features": {
       "capability": {
         "desc": "Gebaseerd op IndexedDB-technologie, groot genoeg om al je gespreksberichten voor het leven op te slaan",
@@ -32,11 +32,11 @@
         "title": "Database-upgrade mislukt"
       },
       "success": {
-        "subTitle": "De database van LobeChat is succesvol bijgewerkt naar de nieuwste versie. Begin nu meteen met de ervaring",
+        "subTitle": "De database van AiPMChat is succesvol bijgewerkt naar de nieuwste versie. Begin nu meteen met de ervaring",
         "title": "Database-upgrade gelukt"
       }
     },
-    "upgradeTip": "De upgrade duurt ongeveer 10-20 seconden. Sluit LobeChat niet af tijdens het upgraden."
+    "upgradeTip": "De upgrade duurt ongeveer 10-20 seconden. Sluit AiPMChat niet af tijdens het upgraden."
   },
   "migrateError": {
     "missVersion": "De geïmporteerde gegevens missen een versienummer. Controleer het bestand en probeer het opnieuw.",

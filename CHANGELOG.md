@@ -541,7 +541,7 @@
 
 #### ✨ Features
 
-- **misc**: Release LobeChat 1.0.
+- **misc**: Release AiPMChat 1.0.
 
 #### 🔧 Chores
 
@@ -554,7 +554,7 @@
 
 #### What's improved
 
-- **misc**: Release LobeChat 1.0, closes [#2897](https://github.com/lobehub/lobe-chat/issues/2897) ([97bb377](https://github.com/lobehub/lobe-chat/commit/97bb377))
+- **misc**: Release AiPMChat 1.0, closes [#2897](https://github.com/lobehub/lobe-chat/issues/2897) ([97bb377](https://github.com/lobehub/lobe-chat/commit/97bb377))
 
 #### Chores
 

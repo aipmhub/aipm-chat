@@ -1,5 +1,5 @@
 ---
-title: Customize LobeChat Deployment with Environment Variables
+title: Customize AiPMChat Deployment with Environment Variables
 description: >-
   Learn about the common environment variables used to customize LobeChat
   deployment, including access code, OAuth SSO, base path, and default agent
@@ -16,14 +16,14 @@ tags:
 
 # Environment Variables
 
-LobeChat provides some additional configuration options during deployment, which can be customized using environment variables.
+AiPMChat provides some additional configuration options during deployment, which can be customized using environment variables.
 
 ## Common Variables
 
 ### `ACCESS_CODE`
 
 - Type: Optional
-- Description: Add a password to access the LobeChat service. You can set a long password to prevent brute force attacks.
+- Description: Add a password to access the AiPMChat service. You can set a long password to prevent brute force attacks.
 - Default: -
 - Example: `awCTe)re_r74` or `rtrt_ewee3@09!`
 
@@ -48,11 +48,11 @@ When using the `turn` mode, the API Keys will be retrieved in a polling manner a
 ### `DEFAULT_AGENT_CONFIG`
 
 - Type: Optional
-- Description: Used to configure the default settings for the LobeChat default agent. It supports various data types and structures, including key-value pairs, nested fields, array values, and more.
+- Description: Used to configure the default settings for the AiPMChat default agent. It supports various data types and structures, including key-value pairs, nested fields, array values, and more.
 - Default: -
 - Example: `'model=gpt-4-1106-preview;params.max_tokens=300;plugins=search-engine,lobe-image-designer'`
 
-The `DEFAULT_AGENT_CONFIG` is used to configure the default settings for the LobeChat default agent. It supports various data types and structures, including key-value pairs, nested fields, array values, and more. The table below provides detailed information on the configuration options, examples, and corresponding explanations for the `DEFAULT_AGENT_CONFIG` environment variable:
+The `DEFAULT_AGENT_CONFIG` is used to configure the default settings for the AiPMChat default agent. It supports various data types and structures, including key-value pairs, nested fields, array values, and more. The table below provides detailed information on the configuration options, examples, and corresponding explanations for the `DEFAULT_AGENT_CONFIG` environment variable:
 
 | Configuration Type | Example | Explanation |
 | --- | --- | --- |
@@ -85,7 +85,7 @@ For specific content, please refer to the [Feature Flags](/docs/self-hosting/adv
 ### `PLUGINS_INDEX_URL`
 
 - Type: Optional
-- Description: Index address of the LobeChat plugin market. If you have deployed the plugin market service on your own, you can use this variable to override the default plugin market address.
+- Description: Index address of the AiPMChat plugin market. If you have deployed the plugin market service on your own, you can use this variable to override the default plugin market address.
 - Default: `https://chat-plugins.lobehub.com`
 
 ### `PLUGIN_SETTINGS`
@@ -114,5 +114,5 @@ The above example sets the `SERPAPI_API_KEY` of the `search-engine` plugin to `x
 ### `AGENTS_INDEX_URL`
 
 - Type: Optional
-- Description: Index address of the LobeChat assistant market. If you have deployed the assistant market service on your own, you can use this variable to override the default market address.
+- Description: Index address of the AiPMChat assistant market. If you have deployed the assistant market service on your own, you can use this variable to override the default market address.
 - Default: `https://chat-agents.lobehub.com`

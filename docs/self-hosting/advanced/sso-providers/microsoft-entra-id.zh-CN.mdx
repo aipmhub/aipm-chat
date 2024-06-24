@@ -1,6 +1,6 @@
 ---
-title: 在 LobeChat 中配置 Microsoft Entra ID 身份验证服务
-description: 学习如何在 LobeChat 中配置 Microsoft Entra ID 身份验证服务，包括创建应用、新增用户和配置环境变量。详细步骤和相关资料。
+title: 在 AiPMChat 中配置 Microsoft Entra ID 身份验证服务
+description: 学习如何在 AiPMChat 中配置 Microsoft Entra ID 身份验证服务，包括创建应用、新增用户和配置环境变量。详细步骤和相关资料。
 tags:
   - Microsoft Entra ID
   - Microsoft Azure Portal
@@ -64,11 +64,11 @@ https://your-domain/api/auth/callback/azure-ad
 
 ### 配置环境变量
 
-在部署 LobeChat 时，你需要配置以下环境变量：
+在部署 AiPMChat 时，你需要配置以下环境变量：
 
 | 环境变量 | 类型 | 描述 |
 | --- | --- | --- |
-| `ENABLE_OAUTH_SSO` | 必选 | 为 LobeChat 启用单点登录 (SSO)。设置为 `1` 以启用单点登录。 |
+| `ENABLE_OAUTH_SSO` | 必选 | 为 AiPMChat 启用单点登录 (SSO)。设置为 `1` 以启用单点登录。 |
 | `NEXTAUTH_SECRET` | 必选 | 用于加密 Auth.js 会话令牌的密钥。您可以使用以下命令生成秘钥： `openssl rand -base64 32` |
 | `SSO_PROVIDERS` | 必选 | 选择 LoboChat 的单点登录提供商。使用 Microsoft Entra ID 请填写 `azure-ad`。 |
 | `AZURE_AD_CLIENT_ID` | 必选 | Microsoft Entra ID 应用程序的 Client ID |

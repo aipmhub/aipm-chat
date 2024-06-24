@@ -1,6 +1,6 @@
 {
   "chat": {
-    "description": "تقدم LobeChat أفضل تجربة استخدام لـ ChatGPT و OLLaMA و Gemini و Claude WebUI",
+    "description": "تقدم AiPMChat أفضل تجربة استخدام لـ ChatGPT و OLLaMA و Gemini و Claude WebUI",
     "title": "AiPMChat: أداة أداء شخصية LLM، لتمنح نفسك عقلًا أكثر ذكاءً"
   },
   "market": {
@@ -12,7 +12,7 @@
     "title": "سوق الإضافات"
   },
   "welcome": {
-    "description": "تقدم LobeChat أفضل تجربة استخدام لـ ChatGPT و OLLaMA و Gemini و Claude WebUI",
+    "description": "تقدم AiPMChat أفضل تجربة استخدام لـ ChatGPT و OLLaMA و Gemini و Claude WebUI",
     "title": "مرحبًا بك في استخدام LobeChat: أداة أداء شخصية LLM، لتمنح نفسك عقلًا أكثر ذكاءً"
   }
 }

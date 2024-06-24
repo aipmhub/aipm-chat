@@ -69,7 +69,7 @@
           "title": "Tên hiển thị mô hình"
         },
         "files": {
-          "extra": "Hiện tại, việc tải lên tệp trong LobeChat chỉ là một phương pháp tạm thời, chỉ dành cho mục đích thử nghiệm. Chờ đợi tính năng tải lên tệp đầy đủ trong tương lai",
+          "extra": "Hiện tại, việc tải lên tệp trong AiPMChat chỉ là một phương pháp tạm thời, chỉ dành cho mục đích thử nghiệm. Chờ đợi tính năng tải lên tệp đầy đủ trong tương lai",
           "title": "Hỗ trợ tải lên tệp"
         },
         "functionCall": {

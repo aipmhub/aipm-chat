@@ -69,7 +69,7 @@
           "title": "Nazwa wyświetlana modelu"
         },
         "files": {
-          "extra": "Obecna implementacja przesyłania plików w LobeChat to tylko tymczasowe rozwiązanie, przeznaczone wyłącznie do własnego użytku. Pełna funkcjonalność przesyłania plików będzie dostępna w przyszłości",
+          "extra": "Obecna implementacja przesyłania plików w AiPMChat to tylko tymczasowe rozwiązanie, przeznaczone wyłącznie do własnego użytku. Pełna funkcjonalność przesyłania plików będzie dostępna w przyszłości",
           "title": "Obsługa przesyłania plików"
         },
         "functionCall": {

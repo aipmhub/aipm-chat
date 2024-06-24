@@ -1,6 +1,6 @@
 # 目录架构
 
-LobeChat 的文件夹目录架构如下：
+AiPMChat 的文件夹目录架构如下：
 
 ```bash
 src

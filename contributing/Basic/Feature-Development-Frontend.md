@@ -1,6 +1,6 @@
 # How to Develop a New Feature
 
-LobeChat is built on the Next.js framework and uses TypeScript as the primary development language. When developing a new feature, we need to follow a certain development process to ensure the quality and stability of the code. The general process can be divided into the following five steps:
+AiPMChat is built on the Next.js framework and uses TypeScript as the primary development language. When developing a new feature, we need to follow a certain development process to ensure the quality and stability of the code. The general process can be divided into the following five steps:
 
 1. Routing: Define routes (`src/app`).
 2. Data Structure: Define data structures (`src/types`).

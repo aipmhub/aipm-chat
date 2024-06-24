@@ -12,7 +12,7 @@
   },
   "analytics": {
     "telemetry": {
-      "desc": "Ao optar por enviar dados de telemetria, você pode nos ajudar a melhorar a experiência do usuário do LobeChat como um todo",
+      "desc": "Ao optar por enviar dados de telemetria, você pode nos ajudar a melhorar a experiência do usuário do AiPMChat como um todo",
       "title": "Enviar dados de uso anônimo"
     },
     "title": "Análise de dados"
@@ -69,7 +69,7 @@
           "title": "Nome de Exibição do Modelo"
         },
         "files": {
-          "extra": "A implementação atual de upload de arquivos do LobeChat é apenas uma solução temporária. Aguarde a implementação completa de capacidade de upload de arquivos no futuro.",
+          "extra": "A implementação atual de upload de arquivos do AiPMChat é apenas uma solução temporária. Aguarde a implementação completa de capacidade de upload de arquivos no futuro.",
           "title": "Suporte a Upload de Arquivos"
         },
         "functionCall": {

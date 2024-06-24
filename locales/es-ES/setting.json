@@ -69,7 +69,7 @@
           "title": "Nombre de visualización del modelo"
         },
         "files": {
-          "extra": "La carga de archivos actual en LobeChat es solo una solución provisional. Por favor, espera a futuras actualizaciones para una funcionalidad completa de carga de archivos.",
+          "extra": "La carga de archivos actual en AiPMChat es solo una solución provisional. Por favor, espera a futuras actualizaciones para una funcionalidad completa de carga de archivos.",
           "title": "Soporte de carga de archivos"
         },
         "functionCall": {

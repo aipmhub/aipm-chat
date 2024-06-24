@@ -1,6 +1,6 @@
 # Architecture Design
 
-LobeChat is an AI conversation application built on the Next.js framework, aiming to provide an AI productivity platform that enables users to interact with AI through natural language. The following is an overview of the architecture design of LobeChat:
+AiPMChat is an AI conversation application built on the Next.js framework, aiming to provide an AI productivity platform that enables users to interact with AI through natural language. The following is an overview of the architecture design of LobeChat:
 
 #### TOC
 
@@ -14,11 +14,11 @@ LobeChat is an AI conversation application built on the Next.js framework, aimin
 
 ## Application Architecture Overview
 
-The overall architecture of LobeChat consists of the frontend, EdgeRuntime API, Agents Market, Plugin Market, and independent plugins. These components collaborate to provide a complete AI experience.
+The overall architecture of AiPMChat consists of the frontend, EdgeRuntime API, Agents Market, Plugin Market, and independent plugins. These components collaborate to provide a complete AI experience.
 
 ## Frontend Architecture
 
-The frontend of LobeChat adopts the Next.js framework, leveraging its powerful server-side rendering (SSR) capability and routing functionality. The frontend utilizes a stack of technologies, including the antd component library, lobe-ui AIGC component library, zustand state management, swr request library, i18next internationalization library, and more. These technologies collectively support the functionality and features of LobeChat.
+The frontend of AiPMChat adopts the Next.js framework, leveraging its powerful server-side rendering (SSR) capability and routing functionality. The frontend utilizes a stack of technologies, including the antd component library, lobe-ui AIGC component library, zustand state management, swr request library, i18next internationalization library, and more. These technologies collectively support the functionality and features of LobeChat.
 
 The components in the frontend architecture include app, components, config, const, features, helpers, hooks, layout, locales, migrations, prompts, services, store, styles, types, and utils. Each component has specific responsibilities and collaborates with others to achieve different functionalities.
 
@@ -38,7 +38,7 @@ The Plugin Market is another key component of LobeChat, offering various plugins
 
 LobeChat's security strategy includes authentication and permission management. Users need to authenticate before using LobeChat, and operations are restricted based on the user's permissions.
 
-To optimize performance, LobeChat utilizes Next.js SSR functionality to achieve fast page loading and response times. Additionally, a series of performance optimization measures are implemented, including code splitting, caching, and resource compression.
+To optimize performance, AiPMChat utilizes Next.js SSR functionality to achieve fast page loading and response times. Additionally, a series of performance optimization measures are implemented, including code splitting, caching, and resource compression.
 
 ## Development and Deployment Process
 

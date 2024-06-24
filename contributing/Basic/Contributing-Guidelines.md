@@ -43,7 +43,7 @@ Ensure that your style code passes stylelint checks before committing.
 
 ## Contribution Process
 
-LobeChat follows the gitmoji and semantic release as our code submission and release process.
+AiPMChat follows the gitmoji and semantic release as our code submission and release process.
 
 ### Gitmoji
 

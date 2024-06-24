@@ -11,7 +11,7 @@ export default {
       confirm: '即将清空本地数据（全局设置不受影响），请确认你已经下载了数据备份。',
     },
     description:
-      '在新版本中，LobeChat 的数据存储有了巨大的飞跃。因此我们要对旧版数据进行升级，进而为你带来更好的使用体验。',
+      '在新版本中，AiPMChat 的数据存储有了巨大的飞跃。因此我们要对旧版数据进行升级，进而为你带来更好的使用体验。',
     features: {
       capability: {
         desc: '基于 IndexedDB 技术，足以装下你一生的会话消息',
@@ -26,7 +26,7 @@ export default {
         title: '更易用',
       },
     },
-    title: 'LobeChat 数据进化',
+    title: 'AiPMChat 数据进化',
     upgrade: {
       error: {
         subTitle:
@@ -34,7 +34,7 @@ export default {
         title: '数据库升级失败',
       },
       success: {
-        subTitle: 'LobeChat 的数据库已经升级到最新版本，立即开始体验吧',
+        subTitle: 'AiPMChat 的数据库已经升级到最新版本，立即开始体验吧',
         title: '数据库升级成功',
       },
     },

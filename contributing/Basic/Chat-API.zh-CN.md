@@ -1,6 +1,6 @@
 # 会话 API 实现逻辑
 
-LobeChat 的大模型 AI 实现主要依赖于 OpenAI 的 API，包括后端的核心会话 API 和前端的集成 API。接下来，我们将分别介绍后端和前端的实现思路和代码。
+AiPMChat 的大模型 AI 实现主要依赖于 OpenAI 的 API，包括后端的核心会话 API 和前端的集成 API。接下来，我们将分别介绍后端和前端的实现思路和代码。
 
 #### TOC
 
@@ -171,4 +171,4 @@ export const fetchSSE = async (fetchFn: () => Promise<Response>, options: FetchS
 };
 ```
 
-以上就是 LobeChat 会话 API 的核心实现。在理解了这些核心代码的基础上，便可以进一步扩展和优化 LobeChat 的 AI 功能。
+以上就是 AiPMChat 会话 API 的核心实现。在理解了这些核心代码的基础上，便可以进一步扩展和优化 AiPMChat 的 AI 功能。

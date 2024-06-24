@@ -69,7 +69,7 @@
           "title": "Model Display Name"
         },
         "files": {
-          "extra": "The current file upload implementation in LobeChat is only a hack solution for self-attempt. Please wait for the complete file upload capability in future implementations.",
+          "extra": "The current file upload implementation in AiPMChat is only a hack solution for self-attempt. Please wait for the complete file upload capability in future implementations.",
           "title": "Support File Upload"
         },
         "functionCall": {

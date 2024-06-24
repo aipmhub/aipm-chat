@@ -1,6 +1,6 @@
 # Environment Setup Guide
 
-Welcome to the LobeChat development environment setup guide.
+Welcome to the AiPMChat development environment setup guide.
 
 #### TOC
 
@@ -23,7 +23,7 @@ Before starting development on LobeChat, you need to install and configure some 
 
 First, you need to install the following software:
 
-- Node.js: LobeChat is built on Node.js, so you need to install Node.js. We recommend installing the latest stable version.
+- Node.js: AiPMChat is built on Node.js, so you need to install Node.js. We recommend installing the latest stable version.
 - Yarn: We use Yarn as the preferred package manager. You can download and install it from the Yarn official website.
 - PNPM: We use PNPM as an auxiliary package manager. You can download and install it from the PNPM official website.
 - Git: We use Git for version control. You can download and install it from the Git official website.
@@ -31,9 +31,9 @@ First, you need to install the following software:
 
 ### Project Setup
 
-After installing the above software, you can start setting up the LobeChat project.
+After installing the above software, you can start setting up the AiPMChat project.
 
-1. **Get the code**: First, you need to clone the LobeChat codebase from GitHub. Run the following command in the terminal:
+1. **Get the code**: First, you need to clone the AiPMChat codebase from GitHub. Run the following command in the terminal:
 
 ```bash
 git clone https://github.com/lobehub/lobe-chat.git
@@ -63,7 +63,7 @@ Now, you can open `http://localhost:3010` in your browser, and you should see th
 
 ![](https://github-production-user-asset-6210df.s3.amazonaws.com/28616219/274655364-414bc31e-8511-47a3-af17-209b530effc7.png)
 
-During the development process, if you encounter any issues with environment setup or have any questions about LobeChat development, feel free to ask us at any time. We look forward to seeing your contributions!
+During the development process, if you encounter any issues with environment setup or have any questions about AiPMChat development, feel free to ask us at any time. We look forward to seeing your contributions!
 
 [codespaces-link]: https://codespaces.new/lobehub/lobe-chat
 [codespaces-shield]: https://github.com/codespaces/badge.svg

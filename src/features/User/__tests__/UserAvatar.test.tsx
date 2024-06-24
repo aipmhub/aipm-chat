@@ -57,7 +57,7 @@ describe('UserAvatar', () => {
       expect(screen.getByAltText('testuser')).toHaveAttribute('src', DEFAULT_USER_AVATAR_URL);
     });
 
-    it('should show LobeChat and default avatar when the user is not logged in and enable auth', () => {
+    it('should show AiPMChat and default avatar when the user is not logged in and enable auth', () => {
       act(() => {
         useUserStore.setState({ enableAuth: () => true, isSignedIn: false, user: undefined });
       });
@@ -69,7 +69,7 @@ describe('UserAvatar', () => {
   });
 
   describe('disable Auth', () => {
-    it('should show LobeChat and default avatar when the user is not logged in and disabled auth', () => {
+    it('should show AiPMChat and default avatar when the user is not logged in and disabled auth', () => {
       enableAuth = false;
       act(() => {
         useUserStore.setState({ enableAuth: () => false, isSignedIn: false, user: undefined });

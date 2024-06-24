@@ -1,4 +1,4 @@
-# Complete Guide to LobeChat Feature Development
+# Complete Guide to AiPMChat Feature Development
 
 This document aims to guide developers on how to develop a complete feature requirement in LobeChat.
 
@@ -123,7 +123,7 @@ As a result, you can now view the `sessionGroups` table in the `LOBE_CHAT_DB` in
 
 ### Define Model
 
-When building the LobeChat application, the Model is responsible for interacting with the database. It defines how to read, insert, update, and delete data from the database, as well as defining specific business logic.
+When building the AiPMChat application, the Model is responsible for interacting with the database. It defines how to read, insert, update, and delete data from the database, as well as defining specific business logic.
 
 In `src/database/model/sessionGroup.ts`, the `SessionGroupModel` is defined as follows:
 
@@ -178,7 +178,7 @@ class SessionService {
 
 ## 3. Frontend Data Flow Store Implementation
 
-In the LobeChat application, the Store module is used to manage the frontend state of the application. The Actions within it are functions that trigger state updates, usually by calling methods in the service layer to perform actual data processing operations and then updating the state in the Store. We use `zustand` as the underlying dependency for the Store module. For a detailed practical introduction to state management, you can refer to [📘 Best Practices for State Management](../State-Management/State-Management-Intro.zh-CN.md).
+In the AiPMChat application, the Store module is used to manage the frontend state of the application. The Actions within it are functions that trigger state updates, usually by calling methods in the service layer to perform actual data processing operations and then updating the state in the Store. We use `zustand` as the underlying dependency for the Store module. For a detailed practical introduction to state management, you can refer to [📘 Best Practices for State Management](../State-Management/State-Management-Intro.zh-CN.md).
 
 ### sessionGroup CRUD
 
@@ -402,7 +402,7 @@ The core logic of this migration is as follows:
 
 - When the user's `group` field is `pinned`, set their `pinned` field to `true`, and set the group to `default`.
 
-However, data migration in LobeChat typically involves two parts: **configuration file migration** and **database migration**. Therefore, the above logic will need to be implemented separately in these two areas.
+However, data migration in AiPMChat typically involves two parts: **configuration file migration** and **database migration**. Therefore, the above logic will need to be implemented separately in these two areas.
 
 #### Configuration File Migration
 
@@ -706,8 +706,8 @@ class ConfigService {
 
 One key point of the above modification is to import sessionGroup first, because if sessions are imported first and the corresponding SessionGroup Id is not found in the current database, the group of this session will default to be modified to the default value. This will prevent the correct association of the sessionGroup's ID with the session.
 
-This is the implementation of the LobeChat Session Group feature in the data import and export process. This approach ensures that users' Session Group data is correctly handled during the import and export process.
+This is the implementation of the AiPMChat Session Group feature in the data import and export process. This approach ensures that users' Session Group data is correctly handled during the import and export process.
 
 ## Summary
 
-The above is the complete implementation process of the LobeChat Session Group feature. Developers can refer to this document for the development and testing of related functionalities.
+The above is the complete implementation process of the AiPMChat Session Group feature. Developers can refer to this document for the development and testing of related functionalities.

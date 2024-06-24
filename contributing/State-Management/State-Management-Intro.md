@@ -1,12 +1,12 @@
 # Best Practices for State Management
 
-LobeChat differs from traditional CRUD web applications in that it involves a large amount of rich interactive capabilities. Therefore, it is crucial to design a data flow architecture that is easy to develop and maintain. This document will introduce the best practices for data flow management in LobeChat.
+AiPMChat differs from traditional CRUD web applications in that it involves a large amount of rich interactive capabilities. Therefore, it is crucial to design a data flow architecture that is easy to develop and maintain. This document will introduce the best practices for data flow management in LobeChat.
 
 ## TOC
 
 - [Key Concepts](#key-concepts)
 - [Hierarchical Structure](#hierarchical-structure)
-  - [Best Practices for LobeChat SessionStore Directory Structure](#best-practices-for-lobechat-sessionstore-directory-structure)
+  - [Best Practices for AiPMChat SessionStore Directory Structure](#best-practices-for-aipmchat-sessionstore-directory-structure)
 - [Implementation of SessionStore](#implementation-of-sessionstore)
 
 ## Key Concepts
@@ -70,7 +70,7 @@ SortableTree/store
 The directory structure of the previous version of SessionStore for LobeChat, with high complexity, implements a large amount of business logic. However, with the modularization of slices and the fractal architecture, it is easy to find the corresponding modules, making it easy to maintain and iterate on new features.
 
 ```bash
-LobeChat SessionStore
+AiPMChat SessionStore
 ├── index.ts
 ├── initialState.ts
 ├── selectors.ts
@@ -110,11 +110,11 @@ LobeChat SessionStore
 └── store.ts
 ```
 
-Based on the provided directory structure of LobeChat SessionStore, we can update the previous document and convert the examples to the implementation of LobeChat's SessionStore. The following is a portion of the updated document:
+Based on the provided directory structure of AiPMChat SessionStore, we can update the previous document and convert the examples to the implementation of LobeChat's SessionStore. The following is a portion of the updated document:
 
-### Best Practices for LobeChat SessionStore Directory Structure
+### Best Practices for AiPMChat SessionStore Directory Structure
 
-In the LobeChat application, session management is a complex functional module, so we use the Slice pattern to organize the data flow. Below is the directory structure of LobeChat SessionStore, where each directory and file has its specific purpose:
+In the AiPMChat application, session management is a complex functional module, so we use the Slice pattern to organize the data flow. Below is the directory structure of AiPMChat SessionStore, where each directory and file has its specific purpose:
 
 ```bash
 src/store/session

@@ -1,6 +1,6 @@
 # New Authentication Provider Guide
 
-LobeChat uses [Auth.js v5](https://authjs.dev/) as the external authentication service. Auth.js is an open-source authentication library that provides a simple way to implement authentication and authorization features. This document will introduce how to use Auth.js to implement a new authentication provider.
+AiPMChat uses [Auth.js v5](https://authjs.dev/) as the external authentication service. Auth.js is an open-source authentication library that provides a simple way to implement authentication and authorization features. This document will introduce how to use Auth.js to implement a new authentication provider.
 
 ### TOC
 
@@ -14,7 +14,7 @@ LobeChat uses [Auth.js v5](https://authjs.dev/) as the external authentication s
 
 ## Add New Authentication Provider
 
-To add a new authentication provider in LobeChat (for example, adding Okta), you need to follow the steps below:
+To add a new authentication provider in AiPMChat (for example, adding Okta), you need to follow the steps below:
 
 ### Pre-requisites: Check the Official Provider List
 

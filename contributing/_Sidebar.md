@@ -10,7 +10,7 @@
 
 - [Architecture Design](https://github.com/lobehub/lobe-chat/wiki/Architecture) | [架构设计](https://github.com/lobehub/lobe-chat/wiki/Architecture.zh-CN)
 - [Code Style and Contribution Guidelines](https://github.com/lobehub/lobe-chat/wiki/Contributing-Guidelines) | [代码风格与贡献指南](https://github.com/lobehub/lobe-chat/wiki/Contributing-Guidelines.zh-CN)
-- [Complete Guide to LobeChat Feature Development](https://github.com/lobehub/lobe-chat/wiki/Feature-Development) | [LobeChat 功能开发完全指南](https://github.com/lobehub/lobe-chat/wiki/Feature-Development.zh-CN)
+- [Complete Guide to AiPMChat Feature Development](https://github.com/lobehub/lobe-chat/wiki/Feature-Development) | [AiPMChat 功能开发完全指南](https://github.com/lobehub/lobe-chat/wiki/Feature-Development.zh-CN)
 - [Conversation API Implementation Logic](https://github.com/lobehub/lobe-chat/wiki/Chat-API) | [会话 API 实现逻辑](https://github.com/lobehub/lobe-chat/wiki/Chat-API.zh-CN)
 - [Directory Structure](https://github.com/lobehub/lobe-chat/wiki/Folder-Structure) | [目录架构](https://github.com/lobehub/lobe-chat/wiki/Folder-Structure.zh-CN)
 - [Environment Setup Guide](https://github.com/lobehub/lobe-chat/wiki/Setup-Development) | [环境设置指南](https://github.com/lobehub/lobe-chat/wiki/Setup-Development.zh-CN)

@@ -1,6 +1,6 @@
-# LobeChat 功能开发完全指南
+# AiPMChat 功能开发完全指南
 
-本文档旨在指导开发者了解如何在 LobeChat 中开发一块完整的功能需求。
+本文档旨在指导开发者了解如何在 AiPMChat 中开发一块完整的功能需求。
 
 我们将以 sessionGroup 的实现为示例：[✨ feat: add session group manager](https://github.com/lobehub/lobe-chat/pull/1055) ， 通过以下六个主要部分来阐述完整的实现流程：
 
@@ -123,7 +123,7 @@ export class LocalDB extends Dexie {
 
 ### 定义 Model
 
-在构建 LobeChat 应用时，Model 负责与数据库的交互，它定义了如何读取、插入、更新和删除数据库的数据，定义具体的业务逻辑。
+在构建 AiPMChat 应用时，Model 负责与数据库的交互，它定义了如何读取、插入、更新和删除数据库的数据，定义具体的业务逻辑。
 
 在 `src/database/model/sessionGroup.ts` 中定义 `SessionGroupModel`：
 
@@ -149,7 +149,7 @@ export const SessionGroupModel = new _SessionGroupModel();
 
 ### Service 实现
 
-在 LobeChat 中，Service 层主要负责与后端服务进行通信，封装业务逻辑，并提供数据给前端的其他层使用。`SessionService` 是一个专门处理与会话（Session）相关业务逻辑的服务类，它封装了创建会话、查询会话、更新会话等操作。
+在 AiPMChat 中，Service 层主要负责与后端服务进行通信，封装业务逻辑，并提供数据给前端的其他层使用。`SessionService` 是一个专门处理与会话（Session）相关业务逻辑的服务类，它封装了创建会话、查询会话、更新会话等操作。
 
 为了保持代码的可维护性和可扩展性，我们将会话分组相关的服务逻辑放在 `SessionService` 中，这样可以使会话领域的业务逻辑保持内聚。当业务需求增加或变化时，我们可以更容易地在这个领域内进行修改和扩展。
 
@@ -178,7 +178,7 @@ class SessionService {
 
 ## 三、前端数据流 Store 实现
 
-在 LobeChat 应用中，Store 是用于管理应用前端状态的模块。其中的 Action 是触发状态更新的函数，通常会调用服务层的方法来执行实际的数据处理操作，然后更新 Store 中的状态。我们采用了 `zustand` 作为 Store 模块的底层依赖，对于状态管理的详细实践介绍，可以查阅 [📘 状态管理最佳实践](../State-Management/State-Management-Intro.zh-CN.md)
+在 AiPMChat 应用中，Store 是用于管理应用前端状态的模块。其中的 Action 是触发状态更新的函数，通常会调用服务层的方法来执行实际的数据处理操作，然后更新 Store 中的状态。我们采用了 `zustand` 作为 Store 模块的底层依赖，对于状态管理的详细实践介绍，可以查阅 [📘 状态管理最佳实践](../State-Management/State-Management-Intro.zh-CN.md)
 
 ### sessionGroup CRUD
 
@@ -402,11 +402,11 @@ after  unpin:  group = default
 
 - 当用户的 `group` 字段为 `pinned` 时，将其 `pinned` 字段置为 `true`，同时将 group 设为 `default`;
 
-但 LobeChat 中的数据迁移通常涉及到 **配置文件迁移** 和 **数据库迁移** 两个部分。所以上述逻辑会需要分别在两块实现迁移。
+但 AiPMChat 中的数据迁移通常涉及到 **配置文件迁移** 和 **数据库迁移** 两个部分。所以上述逻辑会需要分别在两块实现迁移。
 
 #### 配置文件迁移
 
-对于配置文件迁移，我们建议先于数据库迁移进行，因为配置文件迁移通常更容易进行测试和验证。LobeChat 的文件迁移配置位于 `src/migrations/index.ts` 文件中，其中定义了配置文件迁移的各个版本及对应的迁移脚本。
+对于配置文件迁移，我们建议先于数据库迁移进行，因为配置文件迁移通常更容易进行测试和验证。AiPMChat 的文件迁移配置位于 `src/migrations/index.ts` 文件中，其中定义了配置文件迁移的各个版本及对应的迁移脚本。
 
 ```diff
 // 当前最新的版本号
@@ -566,7 +566,7 @@ export class LocalDB extends Dexie {
 
 ## 六、数据导入导出
 
-在 LobeChat 中，数据导入导出功能是为了确保用户可以在不同设备之间迁移他们的数据。这包括会话、话题、消息和设置等数据。在本次的 Session Group 功能实现中，我们也需要对数据导入导出进行处理，以确保当完整导出的数据在其他设备上可以一模一样恢复。
+在 AiPMChat 中，数据导入导出功能是为了确保用户可以在不同设备之间迁移他们的数据。这包括会话、话题、消息和设置等数据。在本次的 Session Group 功能实现中，我们也需要对数据导入导出进行处理，以确保当完整导出的数据在其他设备上可以一模一样恢复。
 
 数据导入导出的核心实现在 `src/service/config.ts` 的 `ConfigService` 中，其中的关键方法如下：
 
@@ -582,7 +582,7 @@ export class LocalDB extends Dexie {
 
 ### 数据导出
 
-在 LobeChat 中，当用户选择导出数据时，会将当前的会话、话题、消息和设置等数据打包成一个 JSON 文件并提供给用户下载。这个 JSON 文件的标准结构如下：
+在 AiPMChat 中，当用户选择导出数据时，会将当前的会话、话题、消息和设置等数据打包成一个 JSON 文件并提供给用户下载。这个 JSON 文件的标准结构如下：
 
 ```json
 {
@@ -700,8 +700,8 @@ class ConfigService {
 
 上述修改的一个要点是先进行 sessionGroup 的导入，因为如果先导入 session 时，如果没有在当前数据库中查到相应的 SessionGroup Id，那么这个 session 的 group 会兜底修改为默认值。这样就无法正确地将 sessionGroup 的 ID 与 session 进行关联。
 
-以上就是 LobeChat Session Group 功能在数据导入导出部分的实现。通过这种方式，我们可以确保用户的 Session Group 数据在导入导出过程中能够被正确地处理。
+以上就是 AiPMChat Session Group 功能在数据导入导出部分的实现。通过这种方式，我们可以确保用户的 Session Group 数据在导入导出过程中能够被正确地处理。
 
 ## 总结
 
-以上就是 LobeChat Session Group 功能的完整实现流程。开发者可以参考本文档进行相关功能的开发和测试。
+以上就是 AiPMChat Session Group 功能的完整实现流程。开发者可以参考本文档进行相关功能的开发和测试。

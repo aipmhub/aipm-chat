@@ -69,7 +69,7 @@
           "title": "Nom d'affichage du modèle"
         },
         "files": {
-          "extra": "La fonctionnalité de téléchargement de fichiers actuelle de LobeChat est une solution de contournement, à utiliser à vos risques et périls. Veuillez attendre une mise en œuvre complète de la capacité de téléchargement de fichiers.",
+          "extra": "La fonctionnalité de téléchargement de fichiers actuelle de AiPMChat est une solution de contournement, à utiliser à vos risques et périls. Veuillez attendre une mise en œuvre complète de la capacité de téléchargement de fichiers.",
           "title": "Prise en charge du téléchargement de fichiers"
         },
         "functionCall": {

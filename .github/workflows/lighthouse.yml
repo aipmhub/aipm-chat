@@ -24,19 +24,19 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - NAME: 'LobeChat | Welcome'
+          - NAME: 'AiPMChat | Welcome'
             URLS: 'https://chat-preview.lobehub.com/welcome'
             BADGES_ARGS: '-b pagespeed -o lighthouse/welcome -r'
             COMMIT_MESSAGE: '🤖 chore: Lighthouse Results | Welcome'
-          - NAME: 'LobeChat | Chat'
+          - NAME: 'AiPMChat | Chat'
             URLS: 'https://chat-preview.lobehub.com/chat'
             BADGES_ARGS: '-b pagespeed -o lighthouse/chat -r'
             COMMIT_MESSAGE: '🤖 chore: Lighthouse Results | Chat'
-          - NAME: 'LobeChat | Market'
+          - NAME: 'AiPMChat | Market'
             URLS: 'https://chat-preview.lobehub.com/market'
             BADGES_ARGS: '-b pagespeed -o lighthouse/market -r'
             COMMIT_MESSAGE: '🤖 chore: Lighthouse Results | Market'
-          - NAME: 'LobeChat | Settings'
+          - NAME: 'AiPMChat | Settings'
             URLS: 'https://chat-preview.lobehub.com/settings'
             BADGES_ARGS: '-b pagespeed -o lighthouse/settings -r'
             COMMIT_MESSAGE: '🤖 chore: Lighthouse Results | Settings'

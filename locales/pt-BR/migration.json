@@ -10,7 +10,7 @@
     "clear": {
       "confirm": "Você está prestes a limpar os dados locais (as configurações globais não serão afetadas). Por favor, confirme se você fez o download do backup dos dados."
     },
-    "description": "Na nova versão, o armazenamento de dados do LobeChat deu um salto significativo. Portanto, precisamos atualizar os dados da versão anterior para proporcionar uma experiência de uso melhor para você.",
+    "description": "Na nova versão, o armazenamento de dados do AiPMChat deu um salto significativo. Portanto, precisamos atualizar os dados da versão anterior para proporcionar uma experiência de uso melhor para você.",
     "features": {
       "capability": {
         "desc": "Baseado na tecnologia IndexedDB, capaz de armazenar todas as suas mensagens de conversa ao longo da vida.",
@@ -32,7 +32,7 @@
         "title": "Falha na atualização do banco de dados"
       },
       "success": {
-        "subTitle": "O banco de dados do LobeChat foi atualizado para a versão mais recente. Comece a usar agora mesmo!",
+        "subTitle": "O banco de dados do AiPMChat foi atualizado para a versão mais recente. Comece a usar agora mesmo!",
         "title": "Atualização do banco de dados bem-sucedida"
       }
     },
