@@ -1,6 +1,6 @@
 'use client';
 
-import { GridBackground } from '@lobehub/ui';
+import { GridBackground } from '@aipmorg/ui';
 import { createStyles } from 'antd-style';
 import { memo } from 'react';
 import { Center } from 'react-layout-kit';

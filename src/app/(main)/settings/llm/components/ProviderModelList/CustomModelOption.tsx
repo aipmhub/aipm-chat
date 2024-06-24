@@ -1,4 +1,4 @@
-import { ActionIcon, Icon } from '@lobehub/ui';
+import { ActionIcon, Icon } from '@aipmorg/ui';
 import { App, Typography } from 'antd';
 import isEqual from 'fast-deep-equal';
 import { LucideArrowRight, LucideSettings, LucideTrash2 } from 'lucide-react';

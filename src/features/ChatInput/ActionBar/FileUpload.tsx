@@ -1,4 +1,4 @@
-import { ActionIcon, Icon } from '@lobehub/ui';
+import { ActionIcon, Icon } from '@aipmorg/ui';
 import { Upload } from 'antd';
 import { useTheme } from 'antd-style';
 import { FileUp, LucideImage, LucideLoader2 } from 'lucide-react';

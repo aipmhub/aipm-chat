@@ -1,6 +1,6 @@
 'use client';
 
-import { ActionIcon } from '@lobehub/ui';
+import { ActionIcon } from '@aipmorg/ui';
 import { AlignJustify } from 'lucide-react';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';

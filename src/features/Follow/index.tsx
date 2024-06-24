@@ -1,7 +1,7 @@
 'use client';
 
+import { ActionIcon } from '@aipmorg/ui';
 import { SiDiscord, SiGithub, SiMedium, SiX } from '@icons-pack/react-simple-icons';
-import { ActionIcon } from '@lobehub/ui';
 import { createStyles } from 'antd-style';
 import Link from 'next/link';
 import { memo } from 'react';

@@ -1,6 +1,6 @@
 'use client';
 
-import { MobileNavBar } from '@lobehub/ui';
+import { MobileNavBar } from '@aipmorg/ui';
 import { memo, useState } from 'react';
 
 import { useInitAgentConfig } from '@/app/(main)/chat/(workspace)/_layout/useInitAgentConfig';

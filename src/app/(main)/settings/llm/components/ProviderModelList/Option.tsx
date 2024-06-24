@@ -1,4 +1,4 @@
-import { ActionIcon, Tooltip } from '@lobehub/ui';
+import { ActionIcon, Tooltip } from '@aipmorg/ui';
 import { Typography } from 'antd';
 import { useTheme } from 'antd-style';
 import isEqual from 'fast-deep-equal';

@@ -1,6 +1,6 @@
 'use client';
 
-import { FluentEmoji } from '@lobehub/ui';
+import { FluentEmoji } from '@aipmorg/ui';
 import { Button } from 'antd';
 import Link from 'next/link';
 import { memo } from 'react';

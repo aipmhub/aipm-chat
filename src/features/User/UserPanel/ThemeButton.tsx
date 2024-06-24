@@ -1,4 +1,4 @@
-import { ActionIcon, Icon } from '@lobehub/ui';
+import { ActionIcon, Icon } from '@aipmorg/ui';
 import { Popover, type PopoverProps } from 'antd';
 import { useTheme } from 'antd-style';
 import { Monitor, Moon, Sun } from 'lucide-react';

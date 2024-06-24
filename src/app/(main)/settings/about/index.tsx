@@ -1,7 +1,7 @@
 'use client';
 
+import { Form } from '@aipmorg/ui';
 import { SiDiscord, SiGithub, SiMedium, SiRss, SiX } from '@icons-pack/react-simple-icons';
-import { Form } from '@lobehub/ui';
 import { Divider } from 'antd';
 import { createStyles } from 'antd-style';
 import { memo } from 'react';

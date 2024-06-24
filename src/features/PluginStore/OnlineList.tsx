@@ -1,4 +1,4 @@
-import { Icon, SearchBar } from '@lobehub/ui';
+import { Icon, SearchBar } from '@aipmorg/ui';
 import { Empty } from 'antd';
 import isEqual from 'fast-deep-equal';
 import { ServerCrash } from 'lucide-react';

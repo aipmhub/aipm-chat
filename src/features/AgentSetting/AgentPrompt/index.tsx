@@ -1,6 +1,6 @@
 'use client';
 
-import { EditableMessage, Form } from '@lobehub/ui';
+import { EditableMessage, Form } from '@aipmorg/ui';
 import { Button } from 'antd';
 import { createStyles } from 'antd-style';
 import { memo, useState } from 'react';

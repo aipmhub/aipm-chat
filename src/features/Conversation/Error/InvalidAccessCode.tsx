@@ -1,4 +1,4 @@
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@aipmorg/ui';
 import { Segmented } from 'antd';
 import { SegmentedLabeledOption } from 'antd/es/segmented';
 import { AsteriskSquare, KeySquare, ScanFace } from 'lucide-react';

@@ -1,6 +1,6 @@
 'use client';
 
-import { DraggablePanel, DraggablePanelContainer } from '@lobehub/ui';
+import { DraggablePanel, DraggablePanelContainer } from '@aipmorg/ui';
 import { createStyles, useResponsive } from 'antd-style';
 import isEqual from 'fast-deep-equal';
 import { PropsWithChildren, memo, useEffect, useState } from 'react';

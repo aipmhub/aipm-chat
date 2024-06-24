@@ -1,4 +1,4 @@
-import { DiscordIcon } from '@lobehub/ui';
+import { DiscordIcon } from '@aipmorg/ui';
 import { Book, CircleUserRound, Database, Download, Feather, Settings2 } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { useTranslation } from 'react-i18next';

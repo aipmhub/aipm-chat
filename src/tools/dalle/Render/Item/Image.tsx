@@ -1,4 +1,4 @@
-import { Icon, Image, Tooltip } from '@lobehub/ui';
+import { Icon, Image, Tooltip } from '@aipmorg/ui';
 import { Loader2 } from 'lucide-react';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';

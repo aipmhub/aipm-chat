@@ -1,6 +1,6 @@
 'use client';
 
-import { MobileNavBar } from '@lobehub/ui';
+import { MobileNavBar } from '@aipmorg/ui';
 import { memo } from 'react';
 
 import { mobileHeaderSticky } from '@/styles/mobileHeader';

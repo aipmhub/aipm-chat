@@ -1,4 +1,4 @@
-import { ActionIcon } from '@lobehub/ui';
+import { ActionIcon } from '@aipmorg/ui';
 import { Input, InputProps } from 'antd';
 import { FormInstance } from 'antd/es/form/hooks/useForm';
 import { LucideDices } from 'lucide-react';

@@ -1,4 +1,4 @@
-import { MobileSafeArea, type MobileSafeAreaProps } from '@lobehub/ui';
+import { MobileSafeArea, type MobileSafeAreaProps } from '@aipmorg/ui';
 import { memo } from 'react';
 
 import { HEADER_HEIGHT, MOBILE_NABBAR_HEIGHT, MOBILE_TABBAR_HEIGHT } from '@/const/layoutTokens';

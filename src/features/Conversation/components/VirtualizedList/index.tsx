@@ -1,6 +1,6 @@
 'use client';
 
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@aipmorg/ui';
 import { useTheme } from 'antd-style';
 import isEqual from 'fast-deep-equal';
 import { Loader2Icon } from 'lucide-react';

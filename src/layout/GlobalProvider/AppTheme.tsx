@@ -1,6 +1,6 @@
 'use client';
 
-import { ConfigProvider, NeutralColors, PrimaryColors, ThemeProvider } from '@lobehub/ui';
+import { ConfigProvider, NeutralColors, PrimaryColors, ThemeProvider } from '@aipmorg/ui';
 import { ThemeAppearance, createStyles } from 'antd-style';
 import 'antd/dist/reset.css';
 import Image from 'next/image';

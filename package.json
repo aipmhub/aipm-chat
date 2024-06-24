@@ -23,7 +23,7 @@
     "url": "https://github.com/lobehub/lobe-chat.git"
   },
   "license": "MIT",
-  "author": "LobeHub <i@lobehub.com>",
+  "author": "AiPMHub <nextprofessionalpower@gmail.com>",
   "sideEffects": false,
   "scripts": {
     "build": "next build",
@@ -92,6 +92,7 @@
     ]
   },
   "dependencies": {
+    "@aipmorg/ui": "^1.0.0",
     "@ant-design/icons": "^5.3.7",
     "@anthropic-ai/sdk": "^0.24.0",
     "@auth/core": "0.28.0",
@@ -110,7 +111,6 @@
     "@lobehub/chat-plugins-gateway": "^1.9.0",
     "@lobehub/icons": "^1.23.0",
     "@lobehub/tts": "^1.24.1",
-    "@lobehub/ui": "^1.144.3",
     "@microsoft/fetch-event-source": "^2.0.1",
     "@neondatabase/serverless": "^0.9.3",
     "@next/third-parties": "^14.2.4",

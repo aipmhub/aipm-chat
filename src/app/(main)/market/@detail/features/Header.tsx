@@ -1,4 +1,4 @@
-import { Tag } from '@lobehub/ui';
+import { Tag } from '@aipmorg/ui';
 import { App, Button, Typography } from 'antd';
 import isEqual from 'fast-deep-equal';
 import { startCase } from 'lodash-es';

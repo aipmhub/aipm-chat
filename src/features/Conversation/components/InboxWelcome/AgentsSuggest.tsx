@@ -1,6 +1,6 @@
 'use client';
 
-import { ActionIcon, Avatar, Grid } from '@lobehub/ui';
+import { ActionIcon, Avatar, Grid } from '@aipmorg/ui';
 import { Skeleton, Typography } from 'antd';
 import { createStyles } from 'antd-style';
 import isEqual from 'fast-deep-equal';

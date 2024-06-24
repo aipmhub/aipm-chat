@@ -1,6 +1,6 @@
 'use client';
 
-import { ActionIcon } from '@lobehub/ui';
+import { ActionIcon } from '@aipmorg/ui';
 import { createStyles } from 'antd-style';
 import { shuffle } from 'lodash-es';
 import { ArrowRight } from 'lucide-react';

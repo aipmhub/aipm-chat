@@ -1,6 +1,6 @@
 'use client';
 
-import { SearchBar } from '@lobehub/ui';
+import { SearchBar } from '@aipmorg/ui';
 import { useUnmount } from 'ahooks';
 import { memo, useState } from 'react';
 import { useTranslation } from 'react-i18next';

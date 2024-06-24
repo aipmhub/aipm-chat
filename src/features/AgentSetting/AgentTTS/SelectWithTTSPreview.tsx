@@ -1,5 +1,5 @@
+import { Alert, Highlighter } from '@aipmorg/ui';
 import { AudioPlayer } from '@lobehub/tts/react';
-import { Alert, Highlighter } from '@lobehub/ui';
 import { Button, RefSelectProps, Select, SelectProps } from 'antd';
 import { useTheme } from 'antd-style';
 import { forwardRef, useCallback, useState } from 'react';

@@ -1,4 +1,4 @@
-import { ActionIcon, Icon, Markdown, Tag, copyToClipboard } from '@lobehub/ui';
+import { ActionIcon, Icon, Markdown, Tag, copyToClipboard } from '@aipmorg/ui';
 import { App } from 'antd';
 import { useTheme } from 'antd-style';
 import { ChevronDown, ChevronUp, ChevronsRight, CopyIcon, TrashIcon } from 'lucide-react';

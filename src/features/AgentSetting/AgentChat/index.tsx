@@ -1,6 +1,6 @@
 'use client';
 
-import { Form, ItemGroup, SelectWithImg, SliderWithInput } from '@lobehub/ui';
+import { Form, ItemGroup, SelectWithImg, SliderWithInput } from '@aipmorg/ui';
 import { Input, Switch } from 'antd';
 import { useThemeMode } from 'antd-style';
 import isEqual from 'fast-deep-equal';

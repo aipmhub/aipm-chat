@@ -1,4 +1,4 @@
-import { ActionIcon } from '@lobehub/ui';
+import { ActionIcon } from '@aipmorg/ui';
 import { Popconfirm } from 'antd';
 import { Eraser } from 'lucide-react';
 import { memo, useCallback, useState } from 'react';
@@ -37,11 +37,12 @@ const Clear = memo(() => {
       placement={'topRight'}
       title={t('confirmClearCurrentMessages', { ns: 'chat' })}
     >
-      <ActionIcon 
-        icon={Eraser} 
+      <ActionIcon
+        icon={Eraser}
         overlayStyle={{ maxWidth: 'none' }}
-        placement={'bottom'} 
-        title={actionTitle} />
+        placement={'bottom'}
+        title={actionTitle}
+      />
     </Popconfirm>
   );
 });

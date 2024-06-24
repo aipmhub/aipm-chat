@@ -1,6 +1,6 @@
 'use client';
 
-import { Grid, SpotlightCardProps } from '@lobehub/ui';
+import { Grid, SpotlightCardProps } from '@aipmorg/ui';
 import { Empty, Skeleton } from 'antd';
 import { createStyles } from 'antd-style';
 import isEqual from 'fast-deep-equal';

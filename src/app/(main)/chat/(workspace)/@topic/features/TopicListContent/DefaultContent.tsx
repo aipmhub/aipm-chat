@@ -1,4 +1,4 @@
-import { Icon, Tag } from '@lobehub/ui';
+import { Icon, Tag } from '@aipmorg/ui';
 import { Typography } from 'antd';
 import { useTheme } from 'antd-style';
 import { MessageSquareDashed } from 'lucide-react';

@@ -1,4 +1,4 @@
-import { Avatar, Form } from '@lobehub/ui';
+import { Avatar, Form } from '@aipmorg/ui';
 import { Form as AForm, Card, FormInstance } from 'antd';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';

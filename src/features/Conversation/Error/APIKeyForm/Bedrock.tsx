@@ -1,5 +1,5 @@
+import { Icon } from '@aipmorg/ui';
 import { Aws } from '@lobehub/icons';
-import { Icon } from '@lobehub/ui';
 import { Button, Input, Select } from 'antd';
 import { useTheme } from 'antd-style';
 import { Network } from 'lucide-react';

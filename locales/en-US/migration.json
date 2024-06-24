@@ -25,14 +25,14 @@
         "title": "More User-Friendly"
       }
     },
-    "title": "LobeChat Data Evolution",
+    "title": "AiPMChat Data Evolution",
     "upgrade": {
       "error": {
         "subTitle": "We are sorry, an error occurred during the database upgrade process. Please try the following solutions: A. Clear local data and re-import backup data; B. Click the 'Retry Upgrade' button.<br><br> If the issue persists, please <1>submit a request</1>, and we will assist you as soon as possible.",
         "title": "Database Upgrade Failed"
       },
       "success": {
-        "subTitle": "LobeChat's database has been successfully upgraded to the latest version. Start experiencing it now!",
+        "subTitle": "AiPMChat's database has been successfully upgraded to the latest version. Start experiencing it now!",
         "title": "Database Upgrade Successful"
       }
     },

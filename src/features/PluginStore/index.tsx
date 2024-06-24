@@ -1,4 +1,4 @@
-import { Modal } from '@lobehub/ui';
+import { Modal } from '@aipmorg/ui';
 import { Segmented } from 'antd';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -31,8 +31,8 @@ export const PluginStore = memo<PluginStoreProps>(({ setOpen, open }) => {
       title={t('store.title')}
       width={800}
     >
-      <Flexbox 
-        gap={ mobile ? 8 : 16 } 
+      <Flexbox
+        gap={mobile ? 8 : 16}
         style={{ maxHeight: mobile ? '-webkit-fill-available' : 'inherit' }}
         width={'100%'}
       >

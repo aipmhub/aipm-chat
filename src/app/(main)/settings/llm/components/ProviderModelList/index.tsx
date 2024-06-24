@@ -1,4 +1,4 @@
-import { ActionIcon } from '@lobehub/ui';
+import { ActionIcon } from '@aipmorg/ui';
 import { Select } from 'antd';
 import { css, cx } from 'antd-style';
 import isEqual from 'fast-deep-equal';

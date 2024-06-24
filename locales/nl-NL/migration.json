@@ -25,7 +25,7 @@
         "title": "Gebruiksvriendelijker"
       }
     },
-    "title": "LobeChat-gegevens evolueren",
+    "title": "AiPMChat-gegevens evolueren",
     "upgrade": {
       "error": {
         "subTitle": "Onze excuses, er is een uitzondering opgetreden tijdens het upgraden van de database. Probeer de volgende oplossingen: A. Wis lokale gegevens en importeer de back-upgegevens opnieuw; B. Klik op de knop 'Opnieuw upgraden'.<br><br> Als het probleem aanhoudt, <1>di dien een probleem in</1>, dan zullen we je zo snel mogelijk helpen bij het oplossen",

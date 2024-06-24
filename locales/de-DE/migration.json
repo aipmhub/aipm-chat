@@ -25,7 +25,7 @@
         "title": "Benutzerfreundlicher"
       }
     },
-    "title": "LobeChat Datenmigration",
+    "title": "AiPMChat Datenmigration",
     "upgrade": {
       "error": {
         "subTitle": "Es tut uns sehr leid, während des Datenbank-Upgrades ist ein Fehler aufgetreten. Bitte versuchen Sie folgende Lösungen: A. Löschen Sie lokale Daten und importieren Sie das Backup erneut; B. Klicken Sie auf die Schaltfläche „Erneut aktualisieren“.<br><br> Wenn das Problem weiterhin besteht, <1>reichen Sie ein Problem ein</1>, wir werden Ihnen sofort helfen.",

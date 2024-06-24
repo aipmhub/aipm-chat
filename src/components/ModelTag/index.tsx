@@ -1,4 +1,4 @@
-import { Tag } from '@lobehub/ui';
+import { Tag } from '@aipmorg/ui';
 import { memo } from 'react';
 
 import ModelIcon from './ModelIcon';

@@ -1,4 +1,4 @@
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@aipmorg/ui';
 import { Button, Dropdown } from 'antd';
 import { createStyles } from 'antd-style';
 import { BotMessageSquare, LucideCheck, LucideChevronDown, MessageSquarePlus } from 'lucide-react';

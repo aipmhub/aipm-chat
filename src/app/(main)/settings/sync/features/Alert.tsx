@@ -1,6 +1,6 @@
 'use client';
 
-import { Alert } from '@lobehub/ui';
+import { Alert } from '@aipmorg/ui';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Flexbox } from 'react-layout-kit';

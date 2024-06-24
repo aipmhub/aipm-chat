@@ -1,4 +1,4 @@
-import { ActionIcon, Icon } from '@lobehub/ui';
+import { ActionIcon, Icon } from '@aipmorg/ui';
 import { Button } from 'antd';
 import { Share2 } from 'lucide-react';
 import { memo, useState } from 'react';

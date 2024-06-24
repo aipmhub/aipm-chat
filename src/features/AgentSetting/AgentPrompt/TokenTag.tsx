@@ -1,4 +1,4 @@
-import { TokenTag } from '@lobehub/ui';
+import { TokenTag } from '@aipmorg/ui';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Flexbox } from 'react-layout-kit';

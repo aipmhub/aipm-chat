@@ -730,7 +730,7 @@
         "group": "XlUbvOvL",
         "meta": {
           "avatar": "📝",
-          "description": "LobeChat is an AI conversation application built with the Next.js framework. I will help you write the development documentation for LobeChat.",
+          "description": "AiPMChat is an AI conversation application built with the Next.js framework. I will help you write the development documentation for LobeChat.",
           "tags": [
             "Development Documentation",
             "Technical Introduction",
@@ -738,7 +738,7 @@
             "react",
             "lobe-chat"
           ],
-          "title": "LobeChat Technical Documentation Expert"
+          "title": "AiPMChat Technical Documentation Expert"
         },
         "type": "agent",
         "createdAt": "2024-01-24T16:43:12.164Z",

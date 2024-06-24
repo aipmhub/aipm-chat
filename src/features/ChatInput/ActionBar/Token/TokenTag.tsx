@@ -1,4 +1,4 @@
-import { TokenTag, Tooltip } from '@lobehub/ui';
+import { TokenTag, Tooltip } from '@aipmorg/ui';
 import { Popover } from 'antd';
 import { useTheme } from 'antd-style';
 import numeral from 'numeral';

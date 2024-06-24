@@ -1,4 +1,4 @@
-import { ActionIconGroupItems } from '@lobehub/ui/es/ActionIconGroup';
+import { ActionIconGroupItems } from '@aipmorg/ui/es/ActionIconGroup';
 import { css, cx } from 'antd-style';
 import { LanguagesIcon, Play } from 'lucide-react';
 import { useMemo } from 'react';

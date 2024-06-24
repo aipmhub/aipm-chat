@@ -70,7 +70,7 @@
         "pattenErrorMessage": "英数字、-、_ のみ入力できます"
       },
       "manifest": {
-        "desc": "LobeChatはこのリンクを使用してプラグインをインストールします",
+        "desc": "AiPMChatはこのリンクを使用してプラグインをインストールします",
         "label": "プラグイン記述ファイル (Manifest) URL",
         "preview": "マニフェストのプレビュー",
         "refresh": "更新"
@@ -103,7 +103,7 @@
       "edit": "カスタムプラグインを編集"
     },
     "type": {
-      "lobe": "LobeChatプラグイン",
+      "lobe": "AiPMChatプラグイン",
       "openai": "OpenAIプラグイン"
     },
     "update": "更新",

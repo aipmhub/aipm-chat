@@ -1,4 +1,4 @@
-import { Icon, Modal, type ModalProps, SortableList } from '@lobehub/ui';
+import { Icon, Modal, type ModalProps, SortableList } from '@aipmorg/ui';
 import { Button } from 'antd';
 import { createStyles } from 'antd-style';
 import isEqual from 'fast-deep-equal';

@@ -1,5 +1,5 @@
+import { Alert, Highlighter } from '@aipmorg/ui';
 import { CheckCircleFilled } from '@ant-design/icons';
-import { Alert, Highlighter } from '@lobehub/ui';
 import { Button } from 'antd';
 import { useTheme } from 'antd-style';
 import { ListResponse } from 'ollama/browser';

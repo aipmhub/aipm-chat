@@ -1,7 +1,7 @@
 'use client';
 
+import { Form, ItemGroup } from '@aipmorg/ui';
 import { VoiceList } from '@lobehub/tts';
-import { Form, ItemGroup } from '@lobehub/ui';
 import { Select, Switch } from 'antd';
 import { debounce } from 'lodash-es';
 import { Mic } from 'lucide-react';

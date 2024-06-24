@@ -25,14 +25,14 @@
         "title": "Daha Kullanıcı Dostu"
       }
     },
-    "title": "LobeChat Data Evolution",
+    "title": "AiPMChat Data Evolution",
     "upgrade": {
       "error": {
         "subTitle": "Üzgünüz, veritabanı yükseltme işlemi sırasında bir hata oluştu. Lütfen şu çözümleri deneyin: A. Yerel verileri temizleyin ve yedek verileri yeniden içe aktarın; B. 'Yükseltmeyi Yeniden Dene' düğmesine tıklayın.<br><br> Sorun devam ederse, lütfen <1>bir istek gönderin</1>, en kısa sürede size yardımcı olacağız.",
         "title": "Veritabanı Yükseltmesi Başarısız Oldu"
       },
       "success": {
-        "subTitle": "LobeChat'in veritabanı en son sürüme başarıyla yükseltildi. Şimdi deneyimlemeye başlayın!",
+        "subTitle": "AiPMChat'in veritabanı en son sürüme başarıyla yükseltildi. Şimdi deneyimlemeye başlayın!",
         "title": "Veritabanı Yükseltmesi Başarılı"
       }
     },

@@ -1,4 +1,4 @@
-import { Avatar, Tooltip } from '@lobehub/ui';
+import { Avatar, Tooltip } from '@aipmorg/ui';
 import { Typography } from 'antd';
 import { createStyles } from 'antd-style';
 import Link from 'next/link';

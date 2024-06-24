@@ -1,4 +1,4 @@
-import { ActionIcon, Icon } from '@lobehub/ui';
+import { ActionIcon, Icon } from '@aipmorg/ui';
 import { App, Dropdown } from 'antd';
 import { createStyles } from 'antd-style';
 import { ItemType } from 'antd/es/menu/interface';

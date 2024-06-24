@@ -1,4 +1,4 @@
-import { Highlighter, Icon } from '@lobehub/ui';
+import { Highlighter, Icon } from '@aipmorg/ui';
 import { Spin } from 'antd';
 import { createStyles } from 'antd-style';
 import { Loader2 } from 'lucide-react';

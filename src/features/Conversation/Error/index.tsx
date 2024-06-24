@@ -1,5 +1,5 @@
+import type { AlertProps } from '@aipmorg/ui';
 import { IPluginErrorType, PluginErrorType } from '@lobehub/chat-plugin-sdk';
-import type { AlertProps } from '@lobehub/ui';
 import { Skeleton } from 'antd';
 import dynamic from 'next/dynamic';
 import { Suspense, memo, useMemo } from 'react';

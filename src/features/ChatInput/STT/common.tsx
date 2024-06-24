@@ -1,4 +1,4 @@
-import { ActionIcon, Alert, Highlighter } from '@lobehub/ui';
+import { ActionIcon, Alert, Highlighter } from '@aipmorg/ui';
 import { Button, Dropdown } from 'antd';
 import { createStyles } from 'antd-style';
 import { Mic, MicOff } from 'lucide-react';

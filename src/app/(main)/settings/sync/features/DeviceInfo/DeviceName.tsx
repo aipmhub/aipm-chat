@@ -1,6 +1,6 @@
 'use client';
 
-import { EditableText } from '@lobehub/ui';
+import { EditableText } from '@aipmorg/ui';
 import { Typography } from 'antd';
 import { memo, useState } from 'react';
 import { useTranslation } from 'react-i18next';

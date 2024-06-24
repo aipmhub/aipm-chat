@@ -1,4 +1,4 @@
-import { Alert, Highlighter, Icon } from '@lobehub/ui';
+import { Alert, Highlighter, Icon } from '@aipmorg/ui';
 import { Button, Popconfirm, Result } from 'antd';
 import { useTheme } from 'antd-style';
 import { createStore, del, get, set } from 'idb-keyval';

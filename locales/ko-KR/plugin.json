@@ -70,7 +70,7 @@
         "pattenErrorMessage": "영문자, 숫자, - 및 _만 입력할 수 있습니다."
       },
       "manifest": {
-        "desc": "LobeChat은 이 링크를 통해 플러그인을 설치합니다.",
+        "desc": "AiPMChat은 이 링크를 통해 플러그인을 설치합니다.",
         "label": "Manifest 파일 URL",
         "preview": "Manifest 미리보기",
         "refresh": "새로 고침"
@@ -103,7 +103,7 @@
       "edit": "사용자 정의 플러그인 편집"
     },
     "type": {
-      "lobe": "LobeChat 플러그인",
+      "lobe": "AiPMChat 플러그인",
       "openai": "OpenAI 플러그인"
     },
     "update": "업데이트",

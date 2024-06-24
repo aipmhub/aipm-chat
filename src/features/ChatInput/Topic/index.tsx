@@ -1,4 +1,4 @@
-import { ActionIcon, Icon, Tooltip } from '@lobehub/ui';
+import { ActionIcon, Icon, Tooltip } from '@aipmorg/ui';
 import { Button } from 'antd';
 import { LucideGalleryVerticalEnd, LucideMessageSquarePlus } from 'lucide-react';
 import { memo } from 'react';

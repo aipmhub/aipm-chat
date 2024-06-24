@@ -1,6 +1,6 @@
 'use client';
 
-import { Icon, MobileTabBar, type MobileTabBarProps } from '@lobehub/ui';
+import { Icon, MobileTabBar, type MobileTabBarProps } from '@aipmorg/ui';
 import { createStyles } from 'antd-style';
 import { Compass, MessageSquare, User } from 'lucide-react';
 import { useRouter } from 'next/navigation';

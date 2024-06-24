@@ -1,4 +1,4 @@
-import { ChatItem } from '@lobehub/ui';
+import { ChatItem } from '@aipmorg/ui';
 import { createStyles } from 'antd-style';
 import isEqual from 'fast-deep-equal';
 import { ReactNode, memo, useCallback } from 'react';

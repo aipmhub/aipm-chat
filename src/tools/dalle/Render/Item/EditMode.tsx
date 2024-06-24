@@ -1,4 +1,4 @@
-import { TextArea } from '@lobehub/ui';
+import { TextArea } from '@aipmorg/ui';
 import { Button, Radio, Select } from 'antd';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';

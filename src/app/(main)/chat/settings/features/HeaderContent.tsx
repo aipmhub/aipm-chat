@@ -1,4 +1,4 @@
-import { ActionIcon, Icon } from '@lobehub/ui';
+import { ActionIcon, Icon } from '@aipmorg/ui';
 import { Button, Dropdown, MenuProps } from 'antd';
 import { HardDriveDownload } from 'lucide-react';
 import { memo, useMemo } from 'react';

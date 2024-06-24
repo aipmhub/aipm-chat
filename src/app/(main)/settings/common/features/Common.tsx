@@ -1,6 +1,6 @@
 'use client';
 
-import { Form, type ItemGroup } from '@lobehub/ui';
+import { Form, type ItemGroup } from '@aipmorg/ui';
 import { App, Button, Input } from 'antd';
 import isEqual from 'fast-deep-equal';
 import { memo, useCallback } from 'react';

@@ -1,4 +1,4 @@
-import { Icon, Typography } from '@lobehub/ui';
+import { Icon, Typography } from '@aipmorg/ui';
 import { Button, Divider, Tag } from 'antd';
 import { Github, Settings, Share2 } from 'lucide-react';
 import Image from 'next/image';

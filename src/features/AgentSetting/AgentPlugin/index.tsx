@@ -1,6 +1,6 @@
 'use client';
 
-import { Avatar, Form, Icon, ItemGroup, Tooltip } from '@lobehub/ui';
+import { Avatar, Form, Icon, ItemGroup, Tooltip } from '@aipmorg/ui';
 import { Button, Empty, Space, Switch, Tag, Typography } from 'antd';
 import isEqual from 'fast-deep-equal';
 import { LucideTrash2, Store } from 'lucide-react';

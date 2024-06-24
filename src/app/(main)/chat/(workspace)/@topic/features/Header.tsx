@@ -1,6 +1,6 @@
 'use client';
 
-import { ActionIcon, Icon } from '@lobehub/ui';
+import { ActionIcon, Icon } from '@aipmorg/ui';
 import { App, Dropdown, MenuProps } from 'antd';
 import { MoreHorizontal, Search, Trash } from 'lucide-react';
 import { memo, useMemo, useState } from 'react';

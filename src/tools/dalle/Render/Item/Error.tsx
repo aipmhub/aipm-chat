@@ -1,4 +1,4 @@
-import { Alert, Highlighter, Icon } from '@lobehub/ui';
+import { Alert, Highlighter, Icon } from '@aipmorg/ui';
 import { Button } from 'antd';
 import { LucideRefreshCw } from 'lucide-react';
 import { memo } from 'react';

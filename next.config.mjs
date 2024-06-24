@@ -20,7 +20,7 @@ const nextConfig = {
       '@emoji-mart/react',
       '@emoji-mart/data',
       '@icons-pack/react-simple-icons',
-      '@lobehub/ui',
+      '@aipmorg/ui',
       'gpt-tokenizer',
       'chroma-js',
       'shiki',

@@ -53,7 +53,7 @@
     "client_mode": ["navigate-existing", "auto"]
   },
   "max_age": 31536000,
-  "name": "LobeChat",
+  "name": "AiPMChat",
   "orientation": "portrait",
   "related_applications": [
     {
@@ -154,7 +154,7 @@
       "immutable": "true"
     }
   ],
-  "short_name": "LobeChat",
+  "short_name": "AiPMChat",
   "splash_pages": null,
   "start_url": ".",
   "tab_strip": {

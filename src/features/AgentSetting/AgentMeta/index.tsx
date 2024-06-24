@@ -1,6 +1,6 @@
 'use client';
 
-import { Form, type FormItemProps, Icon, type ItemGroup, Tooltip } from '@lobehub/ui';
+import { Form, type FormItemProps, Icon, type ItemGroup, Tooltip } from '@aipmorg/ui';
 import { Button } from 'antd';
 import isEqual from 'fast-deep-equal';
 import { isString } from 'lodash-es';

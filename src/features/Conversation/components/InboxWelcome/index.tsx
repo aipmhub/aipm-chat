@@ -1,6 +1,6 @@
 'use client';
 
-import { FluentEmoji, Markdown } from '@lobehub/ui';
+import { FluentEmoji, Markdown } from '@aipmorg/ui';
 import { createStyles } from 'antd-style';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -56,12 +56,12 @@ const InboxWelcome = memo(() => {
         <Markdown className={styles.desc} variant={'chat'}>
           {t('guide.defaultMessage')}
         </Markdown>
-        {
-          showWelcomeSuggest && <>
+        {showWelcomeSuggest && (
+          <>
             <AgentsSuggest mobile={mobile} />
             <QuestionSuggest mobile={mobile} />
           </>
-        }
+        )}
       </Flexbox>
     </Center>
   );
