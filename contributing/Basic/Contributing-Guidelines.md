@@ -1,6 +1,6 @@
 # Code Style and Contribution Guidelines
 
-Welcome to the Code Style and Contribution Guidelines for LobeChat. This guide will help you understand our code standards and contribution process, ensuring code consistency and smooth project progression.
+Welcome to the Code Style and Contribution Guidelines for AiPMChat. This guide will help you understand our code standards and contribution process, ensuring code consistency and smooth project progression.
 
 ## TOC
 
@@ -17,7 +17,7 @@ Welcome to the Code Style and Contribution Guidelines for LobeChat. This guide w
 
 ## Code Style
 
-In LobeChat, we use the `@lobehub/lint` package to maintain a unified code style. This package incorporates configurations for `ESLint`, `Prettier`, `remarklint`, and `stylelint` to ensure that our JavaScript, Markdown, and CSS files adhere to the same coding standards.
+In AiPMChat, we use the `@lobehub/lint` package to maintain a unified code style. This package incorporates configurations for `ESLint`, `Prettier`, `remarklint`, and `stylelint` to ensure that our JavaScript, Markdown, and CSS files adhere to the same coding standards.
 
 ### ESLint
 

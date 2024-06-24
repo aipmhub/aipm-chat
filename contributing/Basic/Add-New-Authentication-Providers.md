@@ -190,4 +190,4 @@ If you have configured multiple authentication providers and their `userId` mapp
   }
 ```
 
-Now, you can use Okta as your provider to implement the authentication feature in LobeChat.
+Now, you can use Okta as your provider to implement the authentication feature in AiPMChat.

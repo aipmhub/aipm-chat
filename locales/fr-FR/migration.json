@@ -25,7 +25,7 @@
         "title": "Plus facile à utiliser"
       }
     },
-    "title": "Évolution des données de LobeChat",
+    "title": "Évolution des données de AiPMChat",
     "upgrade": {
       "error": {
         "subTitle": "Désolé, un problème est survenu lors du processus de mise à niveau de la base de données. Veuillez essayer les solutions suivantes : A. Vider les données locales, puis réimporter les données de sauvegarde ; B. Cliquez sur le bouton \"Refaire la mise à niveau\".<br><br> Si le problème persiste, veuillez <1> soumettre un problème</1>, nous vous aiderons à le résoudre dès que possible.",

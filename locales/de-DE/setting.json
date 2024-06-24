@@ -74,7 +74,7 @@
           "title": "Datei-Upload unterstützen"
         },
         "functionCall": {
-          "extra": "Diese Konfiguration aktiviert nur die Funktion zum Aufrufen von Funktionen in LobeChat. Die Unterstützung von Funktionsaufrufen hängt vollständig von dem Modell selbst ab. Bitte testen Sie die Verfügbarkeit der Funktionsaufrufe des Modells selbst.",
+          "extra": "Diese Konfiguration aktiviert nur die Funktion zum Aufrufen von Funktionen in AiPMChat. Die Unterstützung von Funktionsaufrufen hängt vollständig von dem Modell selbst ab. Bitte testen Sie die Verfügbarkeit der Funktionsaufrufe des Modells selbst.",
           "title": "Funktionsaufrufe unterstützen"
         },
         "id": {
@@ -88,7 +88,7 @@
           "unlimited": "unbegrenzt"
         },
         "vision": {
-          "extra": "Diese Konfiguration aktiviert nur die Bild-Upload-Konfiguration in LobeChat. Die Unterstützung der Erkennung hängt vollständig von dem Modell selbst ab. Bitte testen Sie die Verfügbarkeit der visuellen Erkennungsfähigkeiten des Modells selbst.",
+          "extra": "Diese Konfiguration aktiviert nur die Bild-Upload-Konfiguration in AiPMChat. Die Unterstützung der Erkennung hängt vollständig von dem Modell selbst ab. Bitte testen Sie die Verfügbarkeit der visuellen Erkennungsfähigkeiten des Modells selbst.",
           "title": "Visuelle Erkennung unterstützen"
         }
       }

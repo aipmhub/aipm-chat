@@ -45,7 +45,7 @@ const Version = memo<{ mobile?: boolean }>(({ mobile }) => {
           </Center>
         </Link>
         <Flexbox>
-          <div style={{ fontSize: 18, fontWeight: 'bolder' }}>LobeChat</div>
+          <div style={{ fontSize: 18, fontWeight: 'bolder' }}>AiPMChat</div>
           <div>
             <Tag color={theme.colorFillSecondary} style={{ color: theme.colorTextSecondary }}>
               v{CURRENT_VERSION}

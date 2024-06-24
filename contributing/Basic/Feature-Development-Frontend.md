@@ -123,4 +123,4 @@ const ChatPage = () => {
 export default ChatPage;
 ```
 
-The above is the step to implement the "chat message" feature in LobeChat. Of course, in the actual development of LobeChat, the business requirements and scenarios faced in real situations are far more complex than the above demo. Please develop according to the actual situation.
+The above is the step to implement the "chat message" feature in AiPMChat. Of course, in the actual development of AiPMChat, the business requirements and scenarios faced in real situations are far more complex than the above demo. Please develop according to the actual situation.

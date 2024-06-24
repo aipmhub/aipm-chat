@@ -1,7 +1,7 @@
 ---
-title: Using Ollama in LobeChat
+title: Using Ollama in AiPMChat
 description: >-
-  Learn how to use Ollama in LobeChat, run LLM locally, and experience
+  Learn how to use Ollama in AiPMChat, run LLM locally, and experience
   cutting-edge AI usage.
 tags:
   - Ollama
@@ -11,21 +11,21 @@ tags:
   - API Key
 ---
 
-# Using Ollama in LobeChat
+# Using Ollama in AiPMChat
 
 <Image
-  alt={'Using Ollama in LobeChat'}
+  alt={'Using Ollama in AiPMChat'}
   borderless
   cover
   src={'https://github.com/aipmhub/aipm-chat/assets/17870709/f579b39b-e771-402c-a1d1-620e57a10c75'}
 />
 
-Ollama is a powerful framework for running large language models (LLMs) locally, supporting various language models including Llama 2, Mistral, and more. Now, AiPMChat supports integration with Ollama, meaning you can easily enhance your application by using the language models provided by Ollama in LobeChat.
+Ollama is a powerful framework for running large language models (LLMs) locally, supporting various language models including Llama 2, Mistral, and more. Now, AiPMChat supports integration with Ollama, meaning you can easily enhance your application by using the language models provided by Ollama in AiPMChat.
 
-This document will guide you on how to use Ollama in LobeChat:
+This document will guide you on how to use Ollama in AiPMChat:
 
 <Video
-  alt="demonstration of using Ollama in LobeChat"
+  alt="demonstration of using Ollama in AiPMChat"
   height={580}
   src="https://github.com/aipmhub/aipm-chat/assets/28616219/c32b56db-c6a1-4876-9bc3-acbd37ec0c0c"
 />
@@ -48,12 +48,12 @@ launchctl setenv OLLAMA_ORIGINS "*"
 
 After setting up, restart the Ollama application.
 
-### Conversing with Local Large Models in LobeChat
+### Conversing with Local Large Models in AiPMChat
 
-Now, you can start conversing with the local LLM in LobeChat.
+Now, you can start conversing with the local LLM in AiPMChat.
 
 <Image
-  alt="Chat with llama3 in LobeChat"
+  alt="Chat with llama3 in AiPMChat"
   height="573"
   src="https://github.com/aipmhub/aipm-chat/assets/28616219/7f9a9a9f-fd91-4f59-aac9-3f26c6d49a1e"
 />
@@ -80,9 +80,9 @@ On Windows, Ollama inherits your user and system environment variables.
 4. Click `OK/Apply` to save and restart the system.
 5. Run `Ollama` again.
 
-### Conversing with Local Large Models in LobeChat
+### Conversing with Local Large Models in AiPMChat
 
-Now, you can start conversing with the local LLM in LobeChat.
+Now, you can start conversing with the local LLM in AiPMChat.
 
 </Steps>
 
@@ -126,9 +126,9 @@ sudo systemctl daemon-reload
 sudo systemctl restart ollama
 ```
 
-### Conversing with Local Large Models in LobeChat
+### Conversing with Local Large Models in AiPMChat
 
-Now, you can start conversing with the local LLM in LobeChat.
+Now, you can start conversing with the local LLM in AiPMChat.
 
 </Steps>
 
@@ -154,9 +154,9 @@ If Ollama runs as a Docker container, you can add the environment variable to th
 docker run -d --gpus=all -v ollama:/root/.ollama -e OLLAMA_ORIGINS="*" -p 11434:11434 --name ollama ollama/ollama
 ```
 
-### Conversing with Local Large Models in LobeChat
+### Conversing with Local Large Models in AiPMChat
 
-Now, you can start conversing with the local LLM in LobeChat.
+Now, you can start conversing with the local LLM in AiPMChat.
 
 </Steps>
 
@@ -164,9 +164,9 @@ Now, you can start conversing with the local LLM in LobeChat.
 
 Ollama supports various models, which you can view in the [Ollama Library](https://ollama.com/library) and choose the appropriate model based on your needs.
 
-### Installation in LobeChat
+### Installation in AiPMChat
 
-In LobeChat, we have enabled some common large language models by default, such as llama3, Gemma, Mistral, etc. When you select a model for conversation, we will prompt you to download that model.
+In AiPMChat, we have enabled some common large language models by default, such as llama3, Gemma, Mistral, etc. When you select a model for conversation, we will prompt you to download that model.
 
 <Image
   alt="AiPMChat guide your to install Ollama model"

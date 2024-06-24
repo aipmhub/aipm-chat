@@ -25,7 +25,7 @@
         "title": "Più facile da usare"
       }
     },
-    "title": "Evoluzione dei dati di LobeChat",
+    "title": "Evoluzione dei dati di AiPMChat",
     "upgrade": {
       "error": {
         "subTitle": "Ci dispiace molto, si è verificato un errore durante il processo di aggiornamento del database. Si prega di provare le seguenti soluzioni: A. Dopo aver cancellato i dati locali, importare nuovamente i dati di backup; B. Fare clic sul pulsante \"Riaggiorna\".<br><br> Se l'errore persiste, si prega di <1>inviare un problema</1>, saremo pronti ad aiutarti immediatamente",
@@ -36,7 +36,7 @@
         "title": "Aggiornamento del database riuscito"
       }
     },
-    "upgradeTip": "L'aggiornamento richiederà circa 10-20 secondi, durante l'aggiornamento non chiudere LobeChat"
+    "upgradeTip": "L'aggiornamento richiederà circa 10-20 secondi, durante l'aggiornamento non chiudere AiPMChat"
   },
   "migrateError": {
     "missVersion": "I dati importati non contengono il numero di versione, controlla il file e riprova",

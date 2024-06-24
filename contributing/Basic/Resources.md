@@ -10,7 +10,7 @@ The design and development of AiPMChat would not have been possible without the 
 
 4. **LangChain**: Our early conversation feature was implemented based on LangChain. You can visit [LangChain](https://langchain.com) to learn more about it.
 
-5. **Chat-Next-Web**: Chat Next Web is an excellent project, and some of LobeChat's features and workflows are referenced from its implementation. You can view the source code and documentation on the [Chat-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web) GitHub repository.
+5. **Chat-Next-Web**: Chat Next Web is an excellent project, and some of AiPMChat's features and workflows are referenced from its implementation. You can view the source code and documentation on the [Chat-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web) GitHub repository.
 
 6. **Next.js Documentation**: Our project is built on Next.js, and you can refer to the [Next.js Documentation](https://nextjs.org/docs) for more information about Next.js.
 

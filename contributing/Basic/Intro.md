@@ -104,7 +104,7 @@ For a detailed guide on internationalization implementation, please refer to [In
 
 ## Appendix: Resources and References
 
-To support developers in better understanding and using the technology stack of LobeChat, we provide a comprehensive list of resources and references — [AiPMChat Resources and References](https://github.com/aipmhub/aipm-chat/wiki/Resources.zh-CN) - Visit our maintained list of resources, including tutorials, articles, and other useful links.
+To support developers in better understanding and using the technology stack of AiPMChat, we provide a comprehensive list of resources and references — [AiPMChat Resources and References](https://github.com/aipmhub/aipm-chat/wiki/Resources.zh-CN) - Visit our maintained list of resources, including tutorials, articles, and other useful links.
 
 We encourage developers to utilize these resources to deepen their learning and enhance their skills, join community discussions through [AiPMChat GitHub Discussions](https://github.com/aipmhub/aipm-chat/discussions) or [Discord](https://discord.com/invite/AYFPHvv2jT), ask questions, or share your experiences.
 

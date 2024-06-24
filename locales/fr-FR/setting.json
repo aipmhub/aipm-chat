@@ -12,7 +12,7 @@
   },
   "analytics": {
     "telemetry": {
-      "desc": "En choisissant d'envoyer des données de télémétrie, vous pouvez nous aider à améliorer l'expérience utilisateur globale de LobeChat",
+      "desc": "En choisissant d'envoyer des données de télémétrie, vous pouvez nous aider à améliorer l'expérience utilisateur globale de AiPMChat",
       "title": "Envoyer des données d'utilisation anonymes"
     },
     "title": "Analytique"
@@ -74,7 +74,7 @@
           "title": "Prise en charge du téléchargement de fichiers"
         },
         "functionCall": {
-          "extra": "Cette configuration activera uniquement la capacité d'appel de fonctions dans LobeChat. La prise en charge des appels de fonctions dépend entièrement du modèle lui-même. Veuillez tester par vous-même la disponibilité de la capacité d'appel de fonctions de ce modèle.",
+          "extra": "Cette configuration activera uniquement la capacité d'appel de fonctions dans AiPMChat. La prise en charge des appels de fonctions dépend entièrement du modèle lui-même. Veuillez tester par vous-même la disponibilité de la capacité d'appel de fonctions de ce modèle.",
           "title": "Prise en charge de l'appel de fonctions"
         },
         "id": {
@@ -88,7 +88,7 @@
           "unlimited": "illimité"
         },
         "vision": {
-          "extra": "Cette configuration activera uniquement la configuration de téléchargement d'images dans LobeChat. La prise en charge de la reconnaissance dépend entièrement du modèle lui-même. Veuillez tester par vous-même la disponibilité de la capacité de reconnaissance visuelle de ce modèle.",
+          "extra": "Cette configuration activera uniquement la configuration de téléchargement d'images dans AiPMChat. La prise en charge de la reconnaissance dépend entièrement du modèle lui-même. Veuillez tester par vous-même la disponibilité de la capacité de reconnaissance visuelle de ce modèle.",
           "title": "Prise en charge de la reconnaissance visuelle"
         }
       }

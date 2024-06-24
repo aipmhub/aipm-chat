@@ -17,7 +17,7 @@ If you have access to GitHub Codespaces, you can click the button below to enter
 
 ## Local Development
 
-Before starting development on LobeChat, you need to install and configure some necessary software and tools in your local environment. This document will guide you through these steps.
+Before starting development on AiPMChat, you need to install and configure some necessary software and tools in your local environment. This document will guide you through these steps.
 
 ### Development Environment Requirements
 
@@ -59,7 +59,7 @@ pnpm install
 yarn run dev
 ```
 
-Now, you can open `http://localhost:3010` in your browser, and you should see the welcome page of LobeChat. This indicates that you have successfully set up the development environment.
+Now, you can open `http://localhost:3010` in your browser, and you should see the welcome page of AiPMChat. This indicates that you have successfully set up the development environment.
 
 ![](https://github-production-user-asset-6210df.s3.amazonaws.com/28616219/274655364-414bc31e-8511-47a3-af17-209b530effc7.png)
 

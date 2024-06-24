@@ -25,7 +25,7 @@
         "title": "Większa użyteczność"
       }
     },
-    "title": "Ewolucja danych w LobeChat",
+    "title": "Ewolucja danych w AiPMChat",
     "upgrade": {
       "error": {
         "subTitle": "Przepraszamy, wystąpił błąd podczas procesu aktualizacji bazy danych. Prosimy spróbować jednego z poniższych rozwiązań: A. Wyczyść lokalne dane i zaimportuj ponownie kopię zapasową danych; B. Kliknij przycisk „Ponowne uaktualnienie”.<br><br> Jeśli problem nadal występuje, prosimy <1>zgłosić problem</1>, a my natychmiast pomożemy Ci go rozwiązać.",

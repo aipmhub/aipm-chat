@@ -25,7 +25,7 @@
         "title": "Dễ sử dụng hơn"
       }
     },
-    "title": "Tiến hóa dữ liệu LobeChat",
+    "title": "Tiến hóa dữ liệu AiPMChat",
     "upgrade": {
       "error": {
         "subTitle": "Rất tiếc, quá trình nâng cấp cơ sở dữ liệu gặp sự cố. Vui lòng thử một trong những cách sau: A. Xóa dữ liệu cục bộ sau đó, nhập lại dữ liệu sao lưu; B. Nhấn nút \"Tái nâng cấp\".<br><br> Nếu vẫn gặp sự cố, vui lòng <1>gửi vấn đề</1> , chúng tôi sẽ kiểm tra ngay lập tức cho bạn",
@@ -36,7 +36,7 @@
         "title": "Nâng cấp cơ sở dữ liệu thành công"
       }
     },
-    "upgradeTip": "Quá trình nâng cấp mất khoảng 10~20 giây, trong quá trình nâng cấp vui lòng không đóng LobeChat"
+    "upgradeTip": "Quá trình nâng cấp mất khoảng 10~20 giây, trong quá trình nâng cấp vui lòng không đóng AiPMChat"
   },
   "migrateError": {
     "missVersion": "Dữ liệu nhập không có số phiên bản, vui lòng kiểm tra lại tệp và thử lại",

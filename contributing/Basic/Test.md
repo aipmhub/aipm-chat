@@ -1,6 +1,6 @@
 # Testing Guide
 
-LobeChat's testing strategy includes unit testing and end-to-end (E2E) testing. Below are detailed explanations of each type of testing:
+AiPMChat's testing strategy includes unit testing and end-to-end (E2E) testing. Below are detailed explanations of each type of testing:
 
 #### TOC
 
@@ -28,13 +28,13 @@ We encourage developers to write corresponding unit tests while writing code to 
 
 End-to-end testing is used to test the functionality and performance of the application in a real environment. It simulates real user operations and verifies the application's performance in different scenarios.
 
-Currently, there is no integrated end-to-end testing in LobeChat. We will gradually introduce end-to-end testing in subsequent iterations.
+Currently, there is no integrated end-to-end testing in AiPMChat. We will gradually introduce end-to-end testing in subsequent iterations.
 
 ## Development Testing
 
 ### 1. Unit Testing
 
-Unit testing is conducted on the smallest testable units in the application, usually functions, components, or modules. In LobeChat, we use [vitest][vitest-url] for unit testing.
+Unit testing is conducted on the smallest testable units in the application, usually functions, components, or modules. In AiPMChat, we use [vitest][vitest-url] for unit testing.
 
 #### Writing Test Cases
 

@@ -42,7 +42,7 @@ export const useScreenshot = (imageType: ImageType) => {
         scale: 2,
       });
       const link = document.createElement('a');
-      link.download = `LobeChat_${title}_${dayjs().format('YYYY-MM-DD')}.${imageType}`;
+      link.download = `AiPMChat_${title}_${dayjs().format('YYYY-MM-DD')}.${imageType}`;
       link.href = dataUrl;
       link.click();
       setLoading(false);

@@ -1,6 +1,6 @@
 # Internationalization Implementation Guide
 
-Welcome to the AiPMChat Internationalization Implementation Guide. This document will guide you through understanding the internationalization mechanism of LobeChat, including file structure and how to add new languages. AiPMChat uses `i18next` and `lobe-i18n` as the internationalization solution, aiming to provide users with seamless multilingual support.
+Welcome to the AiPMChat Internationalization Implementation Guide. This document will guide you through understanding the internationalization mechanism of AiPMChat, including file structure and how to add new languages. AiPMChat uses `i18next` and `lobe-i18n` as the internationalization solution, aiming to provide users with seamless multilingual support.
 
 ## TOC
 
@@ -12,7 +12,7 @@ Welcome to the AiPMChat Internationalization Implementation Guide. This document
 
 ## Internationalization Overview
 
-Internationalization (i18n for short) is the process of enabling an application to adapt to different languages and regions. In LobeChat, we support multiple languages and achieve dynamic language switching and content localization through the `i18next` library. Our goal is to provide a localized experience for global users.
+Internationalization (i18n for short) is the process of enabling an application to adapt to different languages and regions. In AiPMChat, we support multiple languages and achieve dynamic language switching and content localization through the `i18next` library. Our goal is to provide a localized experience for global users.
 
 ## File Structure
 
@@ -69,7 +69,7 @@ The internationalization core implementation logic of AiPMChat is as follows:
 - Dynamically load translation resources using `i18next-resources-to-backend`.
 - Set the direction of the HTML document (LTR or RTL) based on the user's language preference.
 
-Here is a simplified pseudo code example to illustrate the core implementation logic of internationalization in LobeChat:
+Here is a simplified pseudo code example to illustrate the core implementation logic of internationalization in AiPMChat:
 
 ```ts
 import i18n from 'i18next';
@@ -122,4 +122,4 @@ To add support for new languages, please refer to the detailed steps in the [New
 - [i18next Official Documentation](https://www.i18next.com/)
 - [lobe-i18n Tool Description](https://github.com/lobehub/lobe-cli-toolbox/tree/master/packages/lobe-i18n)
 
-By following this guide, you can better understand and participate in the internationalization work of LobeChat, providing a seamless multilingual experience for global users.
+By following this guide, you can better understand and participate in the internationalization work of AiPMChat, providing a seamless multilingual experience for global users.

@@ -1,13 +1,13 @@
 ---
 title: AiPMChat Plugin Development Guide
 description: >-
-  Learn how to create and integrate custom plugins in LobeChat, including plugin
+  Learn how to create and integrate custom plugins in AiPMChat, including plugin
   composition, custom plugin workflow, local plugin development, manifest
   structure, project structure, server-side implementation, plugin UI interface,
   deployment, and release.
 tags:
   - Plugin Development
-  - LobeChat
+  - AiPMChat
   - Custom Plugins
   - Plugin Workflow
   - Manifest Structure
@@ -31,7 +31,7 @@ A AiPMChat plugin consists of the following components:
 
 ## Custom Plugin Workflow
 
-This section will introduce how to add and use a custom plugin in LobeChat.
+This section will introduce how to add and use a custom plugin in AiPMChat.
 
 <Steps>
   ### Create and Launch Plugin Project
@@ -56,7 +56,7 @@ When you see `ready started server on 0.0.0.0:3400, url: http://localhost:3400`,
 
 ### Add Local Plugin in AiPMChat Role Settings
 
-Next, go to LobeChat, create a new assistant, and go to its session settings page:
+Next, go to AiPMChat, create a new assistant, and go to its session settings page:
 
 <Image
   alt="Add Local Plugin in AiPMChat Role Settings S1"
@@ -116,7 +116,7 @@ After answering, the assistant will initiate the plugin call, retrieve recommend
   src="https://github-production-user-asset-6210df.s3.amazonaws.com/28616219/265260461-c22ae797-2809-464b-96fc-d0c020f4807b.png"
 />
 
-After completing these operations, you have understood the basic process of adding custom plugins and using them in LobeChat.
+After completing these operations, you have understood the basic process of adding custom plugins and using them in AiPMChat.
 
 </Steps>
 
@@ -170,7 +170,7 @@ In this manifest, it mainly includes the following parts:
 1. `identifier`: This is the unique identifier of the plugin, used to distinguish different plugins. This field needs to be globally unique.
 2. `api`: This is an array containing all the API interface information of the plugin. Each interface includes the url, name, description, and parameters fields, all of which are required. The `description` and `parameters` fields will be sent to GPT as the `functions` parameter of the [Function Call](https://sspai.com/post/81986), and the parameters need to comply with the [JSON Schema](https://json-schema.org/) specification. In this example, the API interface is named `recommendClothes`, and its function is to recommend clothes based on the user's mood and gender. The interface parameters include the user's mood and gender, both of which are required.
 3. `ui`: This field contains information about the plugin's user interface, indicating from which address AiPMChat loads the plugin's front-end interface. Since AiPMChat plugin interface loading is implemented based on iframes, the height and width of the plugin interface can be specified as needed.
-4. `gateway`: This field specifies the gateway for AiPMChat to query the plugin's API interface. LobeChat's default plugin gateway is a cloud-based service, and requests for custom plugins need to be sent to a locally launched service. Remote calls to a local address are generally not feasible. The `gateway` field solves this problem. By specifying the gateway in the manifest, AiPMChat will send plugin requests to this address, and the local gateway address will dispatch requests to the local plugin service. Published online plugins do not need to specify this field.
+4. `gateway`: This field specifies the gateway for AiPMChat to query the plugin's API interface. AiPMChat's default plugin gateway is a cloud-based service, and requests for custom plugins need to be sent to a locally launched service. Remote calls to a local address are generally not feasible. The `gateway` field solves this problem. By specifying the gateway in the manifest, AiPMChat will send plugin requests to this address, and the local gateway address will dispatch requests to the local plugin service. Published online plugins do not need to specify this field.
 5. `version`: This is the version number of the plugin, which currently has no effect.
 
 In actual development, you can modify the plugin's description list according to your own needs to declare the functionality you want to implement. For a complete introduction to each field in the manifest, see: [manifest][manifest-docs-url].
@@ -273,7 +273,7 @@ AiPMChat implements the loading of plugin UI through `iframe` and uses `postMess
 
 In the template we provide, we use React + Next.js + [antd](https://ant.design/) as the frontend interface framework. You can find the implementation of the user interface in [`src/pages/index.tsx`](https://github.com/lobehub/chat-plugin-template/blob/main/src/pages/index.tsx).
 
-As for plugin communication, we provide relevant methods in [`@lobehub/chat-plugin-sdk`](https://github.com/lobehub/chat-plugin-sdk) to simplify communication between the plugin and LobeChat. You can actively retrieve the current message data from AiPMChat using the `fetchPluginMessage` method. For detailed information about this method, see: [fetchPluginMessage][fetch-plugin-message-url].
+As for plugin communication, we provide relevant methods in [`@lobehub/chat-plugin-sdk`](https://github.com/lobehub/chat-plugin-sdk) to simplify communication between the plugin and AiPMChat. You can actively retrieve the current message data from AiPMChat using the `fetchPluginMessage` method. For detailed information about this method, see: [fetchPluginMessage][fetch-plugin-message-url].
 
 ```tsx
 import { fetchPluginMessage } from '@lobehub/chat-plugin-sdk';
@@ -307,10 +307,10 @@ If you want more people to use your plugin, feel free to [submit it for listing]
 
 ### Plugin Shield
 
-[![lobe-chat-plugin](https://img.shields.io/badge/%F0%9F%A4%AF%20%26%20%F0%9F%A7%A9%20LobeHub-Plugin-95f3d9?labelColor=black&style=flat-square)](https://github.com/aipmhub/aipm-chat-plugins)
+[![lobe-chat-plugin](https://img.shields.io/badge/%F0%9F%A4%AF%20%26%20%F0%9F%A7%A9%20AiPMHub-Plugin-95f3d9?labelColor=black&style=flat-square)](https://github.com/aipmhub/aipm-chat-plugins)
 
 ```md
-[![lobe-chat-plugin](https://img.shields.io/badge/%F0%9F%A4%AF%20%26%20%F0%9F%A7%A9%20LobeHub-Plugin-95f3d9?labelColor=black&style=flat-square)](https://github.com/aipmhub/aipm-chat-plugins)
+[![lobe-chat-plugin](https://img.shields.io/badge/%F0%9F%A4%AF%20%26%20%F0%9F%A7%A9%20AiPMHub-Plugin-95f3d9?labelColor=black&style=flat-square)](https://github.com/aipmhub/aipm-chat-plugins)
 ```
 
 ## Links

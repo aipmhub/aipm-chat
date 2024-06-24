@@ -103,7 +103,7 @@
       "edit": "Editar complemento personalizado"
     },
     "type": {
-      "lobe": "Complemento LobeChat",
+      "lobe": "Complemento AiPMChat",
       "openai": "Complemento OpenAI"
     },
     "update": "Actualizar",

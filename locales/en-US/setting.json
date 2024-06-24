@@ -12,7 +12,7 @@
   },
   "analytics": {
     "telemetry": {
-      "desc": "By opting to send telemetry data, you can help us improve the overall user experience of LobeChat",
+      "desc": "By opting to send telemetry data, you can help us improve the overall user experience of AiPMChat",
       "title": "Send Anonymous Usage Data"
     },
     "title": "Analytics"
@@ -74,7 +74,7 @@
           "title": "Support File Upload"
         },
         "functionCall": {
-          "extra": "This configuration will only enable the function call capability in LobeChat. Whether function calls are supported depends entirely on the model itself. Please test the availability of function calls in this model on your own.",
+          "extra": "This configuration will only enable the function call capability in AiPMChat. Whether function calls are supported depends entirely on the model itself. Please test the availability of function calls in this model on your own.",
           "title": "Support Function Call"
         },
         "id": {
@@ -88,7 +88,7 @@
           "unlimited": "unlimited"
         },
         "vision": {
-          "extra": "This configuration will only enable the image upload configuration in LobeChat. Whether recognition is supported depends entirely on the model itself. Please test the availability of visual recognition in this model on your own.",
+          "extra": "This configuration will only enable the image upload configuration in AiPMChat. Whether recognition is supported depends entirely on the model itself. Please test the availability of visual recognition in this model on your own.",
           "title": "Support Visual Recognition"
         }
       }

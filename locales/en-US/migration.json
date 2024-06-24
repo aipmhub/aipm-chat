@@ -10,7 +10,7 @@
     "clear": {
       "confirm": "You are about to clear local data (global settings will not be affected). Please confirm that you have downloaded a data backup."
     },
-    "description": "In the new version, LobeChat's data storage has made a huge leap. Therefore, we need to upgrade the old version data to bring you a better user experience.",
+    "description": "In the new version, AiPMChat's data storage has made a huge leap. Therefore, we need to upgrade the old version data to bring you a better user experience.",
     "features": {
       "capability": {
         "desc": "Based on IndexedDB technology, it can store a lifetime of conversation messages.",

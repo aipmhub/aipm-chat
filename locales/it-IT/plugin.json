@@ -103,7 +103,7 @@
       "edit": "Modifica plugin personalizzato"
     },
     "type": {
-      "lobe": "Plugin LobeChat",
+      "lobe": "Plugin AiPMChat",
       "openai": "Plugin OpenAI"
     },
     "update": "Aggiorna",

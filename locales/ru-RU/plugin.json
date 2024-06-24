@@ -103,7 +103,7 @@
       "edit": "Редактировать плагин"
     },
     "type": {
-      "lobe": "Плагин LobeChat",
+      "lobe": "Плагин AiPMChat",
       "openai": "Плагин OpenAI"
     },
     "update": "Обновить",

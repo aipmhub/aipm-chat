@@ -103,7 +103,7 @@
       "edit": "تحرير برنامج مساعد مخصص"
     },
     "type": {
-      "lobe": "برنامج مساعد LobeChat",
+      "lobe": "برنامج مساعد AiPMChat",
       "openai": "برنامج مساعد OpenAI"
     },
     "update": "تحديث",

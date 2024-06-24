@@ -10,7 +10,7 @@
     "clear": {
       "confirm": "Yerel verileri temizlemek üzeresiniz (global ayarlar etkilenmeyecek). Lütfen yedeği indirdiğinizi onaylayın."
     },
-    "description": "Yeni sürümde, LobeChat'in veri arttı. Bu nedenle, size daha iyi bir kullanıcı deneyimi sunmak için eski sürüm verilerini yükseltmemiz gerekiyor.",
+    "description": "Yeni sürümde, AiPMChat'in veri arttı. Bu nedenle, size daha iyi bir kullanıcı deneyimi sunmak için eski sürüm verilerini yükseltmemiz gerekiyor.",
     "features": {
       "capability": {
         "desc": "IndexedDB teknolojisine ile ömür boyu konuşma mesajları depolayabilir.",
@@ -36,7 +36,7 @@
         "title": "Veritabanı Yükseltmesi Başarılı"
       }
     },
-    "upgradeTip": "Yükseltme işlemi yaklaşık 10 ila 20 saniye sürecektir. Lütfen yükseltme sırasında LobeChat'i kapatmayın."
+    "upgradeTip": "Yükseltme işlemi yaklaşık 10 ila 20 saniye sürecektir. Lütfen yükseltme sırasında AiPMChat'i kapatmayın."
   },
   "migrateError": {
     "missVersion": "İçe aktarılan verilerde bir sürüm numarası eksik. Lütfen dosyayı kontrol edin ve tekrar deneyin.",

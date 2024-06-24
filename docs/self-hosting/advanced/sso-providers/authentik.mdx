@@ -1,7 +1,7 @@
 ---
 title: Configuring Authentik Authentication Service for LobeChat
 description: >-
-  Learn how to configure Authentik for Single Sign-On (SSO) for LobeChat,
+  Learn how to configure Authentik for Single Sign-On (SSO) for AiPMChat,
   including creating an application provider, setting environment variables, and
   deployment instructions.
 tags:
@@ -50,11 +50,11 @@ Copy the URL of `OpenID Configuration Issuer` and save it.
 
 ### Configure Environment Variables
 
-When deploying LobeChat, you need to configure the following environment variables:
+When deploying AiPMChat, you need to configure the following environment variables:
 
 | Environment Variable | Type | Description |
 | --- | --- | --- |
-| `ENABLE_OAUTH_SSO` | Required | Enable Single Sign-On (SSO) for LobeChat. Set to `1` to enable SSO. |
+| `ENABLE_OAUTH_SSO` | Required | Enable Single Sign-On (SSO) for AiPMChat. Set to `1` to enable SSO. |
 | `NEXTAUTH_SECRET` | Required | The secret used to encrypt Auth.js session tokens. You can generate a secret using the following command: `openssl rand -base64 32` |
 | `SSO_PROVIDERS` | Required | Select the SSO provider for LoboChat. Use `authentik` for Authentik. |
 | `AUTHENTIK_CLIENT_ID` | Required | The Client ID from the Authentik application provider details page |
