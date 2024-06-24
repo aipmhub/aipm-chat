@@ -16,7 +16,7 @@ AiPMChat is an open-source, extensible ([Function Calling][fc-url]), high-perfor
 
 <!-- DOCS LIST -->
 
-### 🤯 Basic
+### 🌿 Basic
 
 - [Architecture Design](https://github.com/aipmhub/aipm-chat/wiki/Architecture) | [架构设计](https://github.com/aipmhub/aipm-chat/wiki/Architecture.zh-CN)
 - [Code Style and Contribution Guidelines](https://github.com/aipmhub/aipm-chat/wiki/Contributing-Guidelines) | [代码风格与贡献指南](https://github.com/aipmhub/aipm-chat/wiki/Contributing-Guidelines.zh-CN)

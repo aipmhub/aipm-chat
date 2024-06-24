@@ -54,7 +54,7 @@ $ docker run -d -p 3210:3210 \
   -e OPENAI_API_KEY=sk-xxxx \
   -e ACCESS_CODE=lobe66 \
   --name lobe-chat \
-  lobehub/lobe-chat
+  aipmhub/aipm-chat
 ```
 
 指令说明：
@@ -91,7 +91,7 @@ $ docker run -d -p 3210:3210 \
   -e OPENAI_PROXY_URL=https://api-proxy.com/v1 \
   -e ACCESS_CODE=lobe66 \
   --name lobe-chat \
-  lobehub/lobe-chat
+  aipmhub/aipm-chat
 ```
 
 ### Crontab 自动更新脚本（可选）
@@ -117,7 +117,7 @@ OPENAI_MODEL_LIST=-gpt-4,-gpt-4-32k,-gpt-3.5-turbo-16k,gpt-3.5-turbo-1106=gpt-3.
 export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
 
 # 拉取最新的镜像并将输出存储在变量中
-output=$(docker pull lobehub/lobe-chat:latest 2>&1)
+output=$(docker pull aipmhub/aipm-chat:latest 2>&1)
 
 # 检查拉取命令是否成功执行
 if [ $? -ne 0 ]; then
@@ -125,7 +125,7 @@ if [ $? -ne 0 ]; then
 fi
 
 # 检查输出中是否包含特定的字符串
-echo "$output" | grep -q "Image is up to date for lobehub/lobe-chat:latest"
+echo "$output" | grep -q "Image is up to date for aipmhub/aipm-chat:latest"
 
 # 如果镜像已经是最新的，则不执行任何操作
 if [ $? -eq 0 ]; then
@@ -138,14 +138,14 @@ echo "Detected Lobe-Chat update"
 echo "Removed: $(docker rm -f Lobe-Chat)"
 
 # 运行新的容器
-echo "Started: $(docker run -d --network=host --env-file /path/to/lobe.env --name=Lobe-Chat --restart=always lobehub/lobe-chat)"
+echo "Started: $(docker run -d --network=host --env-file /path/to/lobe.env --name=Lobe-Chat --restart=always aipmhub/aipm-chat)"
 
 # 打印更新的时间和版本
 echo "Update time: $(date)"
-echo "Version: $(docker inspect lobehub/lobe-chat:latest | grep 'org.opencontainers.image.version' | awk -F'"' '{print $4}')"
+echo "Version: $(docker inspect aipmhub/aipm-chat:latest | grep 'org.opencontainers.image.version' | awk -F'"' '{print $4}')"
 
 # 清理不再使用的镜像
-docker images | grep 'lobehub/lobe-chat' | grep -v 'latest' | awk '{print $3}' | xargs -r docker rmi > /dev/null 2>&1
+docker images | grep 'aipmhub/aipm-chat' | grep -v 'latest' | awk '{print $3}' | xargs -r docker rmi > /dev/null 2>&1
 echo "Removed old images."
 ```
 

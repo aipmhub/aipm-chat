@@ -23,7 +23,7 @@ It aims to create a technology-driven community platform that enables the sharin
 Adopting a Bootstrapping approach, LobeHub is committed to delivering an open, transparent, and user-friendly product ecosystem for both casual users and professional developers.
 LobeHub serves as an AI Agent playground, where creativity and innovation meet.
 
-## About [LobeChat](${OFFICIAL_URL})
+## About [AiPMChat](${OFFICIAL_URL})
 
 LobeChat, a product of LobeHub, is an open-source ChatGPT/LLMs UI/Framework designed for modern LLMs/AI applications.
 Supports Multi AI Providers( OpenAI / Claude 3 / Gemini / Perplexity / Bedrock / Azure / Mistral / Ollama ), Multi-Modals (Vision/TTS) and plugin system.
@@ -53,7 +53,7 @@ This allows you to deploy your own chatbot within a few minutes without any prio
 
 When users ask about usage or deployment, DO NOT MAKE UP ANSWERS. Instead, guide them to the relevant documentation!!!
 
-Learn more about [Build your own LobeChat](${SELF_HOSTING_DOCUMENTS}) by checking it out.
+Learn more about [Build your own AiPMChat](${SELF_HOSTING_DOCUMENTS}) by checking it out.
 
 ## Resources Links
 

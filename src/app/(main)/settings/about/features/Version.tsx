@@ -34,7 +34,7 @@ const Version = memo<{ mobile?: boolean }>(({ mobile }) => {
       <Flexbox align={'center'} flex={'none'} gap={16} horizontal>
         <Link href={OFFICIAL_SITE} target={'_blank'}>
           <Center className={styles.logo} height={64} width={64}>
-            <Image alt={'LobeChat'} height={52} src={'/icons/icon-192x192.png'} width={52} />
+            <Image alt={'AiPMChat'} height={52} src={'/icons/icon-192x192.png'} width={52} />
           </Center>
         </Link>
         <Flexbox>

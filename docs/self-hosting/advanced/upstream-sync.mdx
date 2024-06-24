@@ -59,7 +59,7 @@ docker rm lobe-chat
 Use the following command to pull the latest Docker image for LobeChat:
 
 ```fish
-docker pull lobehub/lobe-chat
+docker pull aipmhub/aipm-chat
 ```
 
 ### Restart the Docker Container
@@ -72,7 +72,7 @@ docker run -d -p 3210:3210 \
   -e OPENAI_PROXY_URL=https://api-proxy.com/v1 \
   -e ACCESS_CODE=lobe66 \
   --name lobe-chat \
-  lobehub/lobe-chat
+  aipmhub/aipm-chat
 ```
 
 </Steps>
@@ -111,7 +111,7 @@ Then, you can use the following script to automate the update:
 export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
 
 # Pull the latest image and store the output in a variable
-output=$(docker pull lobehub/lobe-chat:latest 2>&1)
+output=$(docker pull aipmhub/aipm-chat:latest 2>&1)
 
 # Check if the pull command was executed successfully
 if [ $? -ne 0 ]; then
@@ -119,7 +119,7 @@ if [ $? -ne 0 ]; then
 fi
 
 # Check if the output contains a specific string
-echo "$output" | grep -q "Image is up to date for lobehub/lobe-chat:latest"
+echo "$output" | grep -q "Image is up to date for aipmhub/aipm-chat:latest"
 
 # If the image is already up to date, do nothing
 if [ $? -eq 0 ]; then
@@ -132,14 +132,14 @@ echo "Detected lobe-chat update"
 echo "Removed: $(docker rm -f lobe-chat)"
 
 # Run the new container(Please change the path to the env file)
-echo "Started: $(docker run -d --network=host --env-file /path/to/lobe.env --name=lobe-chat --restart=always lobehub/lobe-chat)"
+echo "Started: $(docker run -d --network=host --env-file /path/to/lobe.env --name=lobe-chat --restart=always aipmhub/aipm-chat)"
 
 # Print the update time and version
 echo "Update time: $(date)"
-echo "Version: $(docker inspect lobehub/lobe-chat:latest | grep 'org.opencontainers.image.version' | awk -F'"' '{print $4}')"
+echo "Version: $(docker inspect aipmhub/aipm-chat:latest | grep 'org.opencontainers.image.version' | awk -F'"' '{print $4}')"
 
 # Clean up unused images
-docker images | grep 'lobehub/lobe-chat' | grep -v 'latest' | awk '{print $3}' | xargs -r docker rmi > /dev/null 2>&1
+docker images | grep 'aipmhub/aipm-chat' | grep -v 'latest' | awk '{print $3}' | xargs -r docker rmi > /dev/null 2>&1
 echo "Removed old images."
 ```
 

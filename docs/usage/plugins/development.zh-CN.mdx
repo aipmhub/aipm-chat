@@ -223,7 +223,7 @@ export default async (req: Request) => {
 
 由于 AiPMChat 默认的插件网关是云端服务 `/api/plugins`，云端服务通过 manifest 上的 `api.url` 地址发送请求，以解决跨域问题。
 
-针对自定义插件，插件请求需要发送给本地服务， 因此通过在 manifest 中指定网关 ([http://localhost:3400/api/gateway)，LobeChat](<http://localhost:3400/api/gateway)，LobeChat>) 将会直接请求该地址，然后只需要在该地址下创建对应的网关即可。
+针对自定义插件，插件请求需要发送给本地服务， 因此通过在 manifest 中指定网关 ([http://localhost:3400/api/gateway)，AiPMChat](<http://localhost:3400/api/gateway)，LobeChat>) 将会直接请求该地址，然后只需要在该地址下创建对应的网关即可。
 
 ```ts
 import { createLobeChatPluginGateway } from '@lobehub/chat-plugins-gateway';

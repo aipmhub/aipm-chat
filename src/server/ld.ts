@@ -72,7 +72,7 @@ class Ld {
     return {
       '@id': this.getId(SITE_URL, '#organization'),
       '@type': 'Organization',
-      'alternateName': 'LobeChat',
+      'alternateName': 'AiPMChat',
       'contactPoint': {
         '@type': 'ContactPoint',
         'contactType': 'customer support',
@@ -192,7 +192,7 @@ class Ld {
       '@type': 'WebSite',
       'description': pkg.description,
       'inLanguage': 'en-US',
-      'name': 'LobeChat',
+      'name': 'AiPMChat',
       'publisher': {
         '@id': this.getId(SITE_URL, '#organization'),
       },

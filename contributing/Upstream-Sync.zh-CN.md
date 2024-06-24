@@ -35,7 +35,7 @@ docker rm lobe-chat
 2. 拉取 AiPMChat 的最新 Docker 镜像：
 
 ```fish
-docker pull lobehub/lobe-chat
+docker pull aipmhub/aipm-chat
 ```
 
 3. 使用新拉取的镜像重新部署 AiPMChat 容器：
@@ -46,7 +46,7 @@ docker run -d -p 3210:3210 \
   -e OPENAI_PROXY_URL=https://api-proxy.com/v1 \
   -e ACCESS_CODE=lobe66 \
   --name lobe-chat \
-  lobehub/lobe-chat
+  aipmhub/aipm-chat
 ```
 
 确保在执行这些命令之前，您有足够的权限来停止和删除容器，并且 Docker 有足够的权限来拉取新的镜像。

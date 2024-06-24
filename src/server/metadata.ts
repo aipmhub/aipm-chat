@@ -85,7 +85,7 @@ export class Meta {
         },
       ],
       locale: 'en-US',
-      siteName: 'LobeChat',
+      siteName: 'AiPMChat',
       title,
       type,
       url,

@@ -84,7 +84,7 @@ describe('userProfileSelectors', () => {
         enableAuth: () => false,
       } as unknown as UserStore;
 
-      expect(userProfileSelectors.username(store)).toBe('LobeChat');
+      expect(userProfileSelectors.username(store)).toBe('AiPMChat');
     });
 
     it('should return user username when signed in', () => {

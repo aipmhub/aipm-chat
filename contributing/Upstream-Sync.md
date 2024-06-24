@@ -35,7 +35,7 @@ docker rm lobe-chat
 2. Pull the latest Docker image of LobeChat:
 
 ```fish
-docker pull lobehub/lobe-chat
+docker pull aipmhub/aipm-chat
 ```
 
 3. Redeploy the AiPMChat container using the newly pulled image:
@@ -46,7 +46,7 @@ docker run -d -p 3210:3210 \
   -e OPENAI_PROXY_URL=https://api-proxy.com/v1 \
   -e ACCESS_CODE=lobe66 \
   --name lobe-chat \
-  lobehub/lobe-chat
+  aipmhub/aipm-chat
 ```
 
 Make sure you have sufficient permissions to stop and delete the container before executing these commands, and Docker has sufficient permissions to pull the new image.
