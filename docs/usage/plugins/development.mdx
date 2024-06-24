@@ -23,7 +23,7 @@ tags:
 
 A AiPMChat plugin consists of the following components:
 
-1. **Plugin Index**: Used to display basic information about the plugin, including the plugin name, description, author, version, and a link to the plugin manifest. The official plugin index can be found at [lobe-chat-plugins](https://github.com/lobehub/lobe-chat-plugins). If you want to publish a plugin to the official plugin marketplace, you need to [submit a PR](https://github.com/lobehub/lobe-chat-plugins/pulls) to this repository.
+1. **Plugin Index**: Used to display basic information about the plugin, including the plugin name, description, author, version, and a link to the plugin manifest. The official plugin index can be found at [lobe-chat-plugins](https://github.com/aipmhub/aipm-chat-plugins). If you want to publish a plugin to the official plugin marketplace, you need to [submit a PR](https://github.com/aipmhub/aipm-chat-plugins/pulls) to this repository.
 2. **Plugin Manifest**: Used to describe the functionality of the plugin, including the server-side description, frontend display information, and version number. For a detailed introduction to the manifest, see [manifest][manifest-docs-url].
 3. **Plugin Services**: Used to implement the server-side and frontend modules described in the plugin manifest, as follows:
    - **Server-side**: Needs to implement the interface capabilities described in the `api` section of the manifest.
@@ -241,7 +241,7 @@ export const config = {
 export default createLobeChatPluginGateway();
 ```
 
-[`@lobehub/chat-plugins-gateway`](https://github.com/lobehub/chat-plugins-gateway) contains the implementation of the plugin gateway in AiPMChat [here](https://github.com/lobehub/lobe-chat/blob/main/src/pages/api/plugins.api.ts). You can use this package directly to create a gateway, allowing AiPMChat to access the local plugin service.
+[`@lobehub/chat-plugins-gateway`](https://github.com/lobehub/chat-plugins-gateway) contains the implementation of the plugin gateway in AiPMChat [here](https://github.com/aipmhub/aipm-chat/blob/main/src/pages/api/plugins.api.ts). You can use this package directly to create a gateway, allowing AiPMChat to access the local plugin service.
 
 ### Plugin UI Interface
 
@@ -301,16 +301,16 @@ export default Render;
 
 Once you have finished developing the plugin, you can deploy it using your preferred method, such as using Vercel or packaging it as a Docker container for release, and so on.
 
-If you want more people to use your plugin, feel free to [submit it for listing](https://github.com/lobehub/lobe-chat-plugins) on the plugin marketplace.
+If you want more people to use your plugin, feel free to [submit it for listing](https://github.com/aipmhub/aipm-chat-plugins) on the plugin marketplace.
 
 [![][submit-plugin-shield]][submit-plugin-url]
 
 ### Plugin Shield
 
-[![lobe-chat-plugin](https://img.shields.io/badge/%F0%9F%A4%AF%20%26%20%F0%9F%A7%A9%20LobeHub-Plugin-95f3d9?labelColor=black&style=flat-square)](https://github.com/lobehub/lobe-chat-plugins)
+[![lobe-chat-plugin](https://img.shields.io/badge/%F0%9F%A4%AF%20%26%20%F0%9F%A7%A9%20LobeHub-Plugin-95f3d9?labelColor=black&style=flat-square)](https://github.com/aipmhub/aipm-chat-plugins)
 
 ```md
-[![lobe-chat-plugin](https://img.shields.io/badge/%F0%9F%A4%AF%20%26%20%F0%9F%A7%A9%20LobeHub-Plugin-95f3d9?labelColor=black&style=flat-square)](https://github.com/lobehub/lobe-chat-plugins)
+[![lobe-chat-plugin](https://img.shields.io/badge/%F0%9F%A4%AF%20%26%20%F0%9F%A7%A9%20LobeHub-Plugin-95f3d9?labelColor=black&style=flat-square)](https://github.com/aipmhub/aipm-chat-plugins)
 ```
 
 ## Links
@@ -319,11 +319,11 @@ If you want more people to use your plugin, feel free to [submit it for listing]
 - **🚀 chat-plugin-template**: [https://github.com/lobehub/chat-plugin-template](https://github.com/lobehub/chat-plugin-template)
 - **🧩 chat-plugin-sdk**: [https://github.com/lobehub/chat-plugin-sdk](https://github.com/lobehub/chat-plugin-sdk)
 - **🚪 chat-plugin-gateway**: [https://github.com/lobehub/chat-plugins-gateway](https://github.com/lobehub/chat-plugins-gateway)
-- **🏪 lobe-chat-plugins**: [https://github.com/lobehub/lobe-chat-plugins](https://github.com/lobehub/lobe-chat-plugins)
+- **🏪 lobe-chat-plugins**: [https://github.com/aipmhub/aipm-chat-plugins](https://github.com/aipmhub/aipm-chat-plugins)
 
 [fetch-plugin-message-url]: https://github.com/lobehub/chat-plugin-template
 [lobe-chat-plugin-template-url]: https://github.com/lobehub/chat-plugin-template
 [manifest-docs-url]: https://chat-plugin-sdk.lobehub.com/guides/plugin-manifest
 [plugin-error-type-url]: https://github.com/lobehub/chat-plugin-template
 [submit-plugin-shield]: https://img.shields.io/badge/🧩/🏪_submit_plugin-%E2%86%92-95f3d9?labelColor=black&style=for-the-badge
-[submit-plugin-url]: https://github.com/lobehub/lobe-chat-plugins
+[submit-plugin-url]: https://github.com/aipmhub/aipm-chat-plugins

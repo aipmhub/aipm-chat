@@ -36,7 +36,7 @@ After installing the above software, you can start setting up the AiPMChat proje
 1. **Get the code**: First, you need to clone the AiPMChat codebase from GitHub. Run the following command in the terminal:
 
 ```bash
-git clone https://github.com/lobehub/lobe-chat.git
+git clone https://github.com/aipmhub/aipm-chat.git
 ```
 
 2. **Install dependencies**: Then, navigate to the project directory and use Yarn to install the project's dependencies:

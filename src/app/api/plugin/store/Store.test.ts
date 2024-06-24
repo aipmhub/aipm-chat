@@ -3,7 +3,7 @@ import { describe, expect, it, vi } from 'vitest';
 
 import { PluginStore } from './Store';
 
-const baseURL = 'https://chat-plugins.lobehub.com';
+const baseURL = 'https://chat-plugins.theforage.cn';
 
 describe('PluginStore', () => {
   it('should return the default index URL when no language is provided', () => {

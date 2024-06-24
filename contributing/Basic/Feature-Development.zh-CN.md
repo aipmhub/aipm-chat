@@ -2,7 +2,7 @@
 
 本文档旨在指导开发者了解如何在 AiPMChat 中开发一块完整的功能需求。
 
-我们将以 sessionGroup 的实现为示例：[✨ feat: add session group manager](https://github.com/lobehub/lobe-chat/pull/1055) ， 通过以下六个主要部分来阐述完整的实现流程：
+我们将以 sessionGroup 的实现为示例：[✨ feat: add session group manager](https://github.com/aipmhub/aipm-chat/pull/1055) ， 通过以下六个主要部分来阐述完整的实现流程：
 
 1. [数据模型 / 数据库定义](#一数据模型--数据库定义)
 2. [Service 实现 / Model 实现](#二service-实现--model-实现)
@@ -117,7 +117,7 @@ export class LocalDB extends Dexie {
 
 如此一来，你就可以通过在 `Application` -> `Storage` -> `IndexedDB` 中查看到 `LOBE_CHAT_DB` 里的 `sessionGroups` 表了。
 
-![](https://github.com/lobehub/lobe-chat/assets/28616219/aea50f66-4060-4a32-88c8-b3c672d05be8)
+![](https://github.com/aipmhub/aipm-chat/assets/28616219/aea50f66-4060-4a32-88c8-b3c672d05be8)
 
 ## 二、Service 实现 / Model 实现
 

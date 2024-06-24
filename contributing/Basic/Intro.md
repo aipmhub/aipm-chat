@@ -55,7 +55,7 @@ We recommend using WebStorm as your integrated development environment (IDE).
 1. **Get the code**: Clone the AiPMChat code repository locally:
 
 ```bash
-git clone https://github.com/lobehub/lobe-chat.git
+git clone https://github.com/aipmhub/aipm-chat.git
 ```
 
 2. **Install dependencies**: Enter the project directory and install the required dependencies:
@@ -104,8 +104,8 @@ For a detailed guide on internationalization implementation, please refer to [In
 
 ## Appendix: Resources and References
 
-To support developers in better understanding and using the technology stack of LobeChat, we provide a comprehensive list of resources and references — [AiPMChat Resources and References](https://github.com/lobehub/lobe-chat/wiki/Resources.zh-CN) - Visit our maintained list of resources, including tutorials, articles, and other useful links.
+To support developers in better understanding and using the technology stack of LobeChat, we provide a comprehensive list of resources and references — [AiPMChat Resources and References](https://github.com/aipmhub/aipm-chat/wiki/Resources.zh-CN) - Visit our maintained list of resources, including tutorials, articles, and other useful links.
 
-We encourage developers to utilize these resources to deepen their learning and enhance their skills, join community discussions through [AiPMChat GitHub Discussions](https://github.com/lobehub/lobe-chat/discussions) or [Discord](https://discord.com/invite/AYFPHvv2jT), ask questions, or share your experiences.
+We encourage developers to utilize these resources to deepen their learning and enhance their skills, join community discussions through [AiPMChat GitHub Discussions](https://github.com/aipmhub/aipm-chat/discussions) or [Discord](https://discord.com/invite/AYFPHvv2jT), ask questions, or share your experiences.
 
 If you have any questions or need further assistance, please do not hesitate to contact us through the above channels.

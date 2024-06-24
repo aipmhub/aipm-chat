@@ -2,7 +2,7 @@
 
 This document aims to guide developers on how to develop a complete feature requirement in LobeChat.
 
-We will use the implementation of sessionGroup as an example: [✨ feat: add session group manager](https://github.com/lobehub/lobe-chat/pull/1055), and explain the complete implementation process through the following six main sections:
+We will use the implementation of sessionGroup as an example: [✨ feat: add session group manager](https://github.com/aipmhub/aipm-chat/pull/1055), and explain the complete implementation process through the following six main sections:
 
 1. [Data Model / Database Definition](#1-data-model--database-definition)
 2. [Service Implementation / Model Implementation](#2-service-implementation--model-implementation)
@@ -117,7 +117,7 @@ export class LocalDB extends Dexie {
 
 As a result, you can now view the `sessionGroups` table in the `LOBE_CHAT_DB` in `Application` -> `Storage` -> `IndexedDB`.
 
-![](https://github.com/lobehub/lobe-chat/assets/28616219/aea50f66-4060-4a32-88c8-b3c672d05be8)
+![](https://github.com/aipmhub/aipm-chat/assets/28616219/aea50f66-4060-4a32-88c8-b3c672d05be8)
 
 ## 2. Service Implementation / Model Implementation
 

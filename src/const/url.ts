@@ -32,12 +32,12 @@ export const DISCORD = 'https://discord.gg/AYFPHvv2jT';
 export const PRIVACY_URL = urlJoin(OFFICIAL_SITE, '/privacy');
 export const TERMS_URL = urlJoin(OFFICIAL_SITE, '/terms');
 
-export const PLUGINS_INDEX_URL = 'https://chat-plugins.lobehub.com';
+export const PLUGINS_INDEX_URL = 'https://chat-plugins.theforage.cn';
 
 export const MORE_MODEL_PROVIDER_REQUEST_URL =
-  'https://github.com/lobehub/lobe-chat/discussions/1284';
+  'https://github.com/aipmhub/aipm-chat/discussions/1284';
 
-export const AGENTS_INDEX_GITHUB = 'https://github.com/lobehub/lobe-chat-agents';
+export const AGENTS_INDEX_GITHUB = 'https://github.com/aipmhub/aipm-chat-agents';
 export const AGENTS_INDEX_GITHUB_ISSUE = urlJoin(AGENTS_INDEX_GITHUB, 'issues/new');
 
 export const SESSION_CHAT_URL = (id: string = INBOX_SESSION_ID, mobile?: boolean) =>

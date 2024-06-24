@@ -16,8 +16,8 @@ export default [
     extra: [
       {
         links: {
-          cn: 'https://github.com/lobehub/lobe-chat-agents/blob/main/README.zh-CN.md',
-          en: 'https://github.com/lobehub/lobe-chat-agents',
+          cn: 'https://github.com/aipmhub/aipm-chat-agents/blob/main/README.zh-CN.md',
+          en: 'https://github.com/aipmhub/aipm-chat-agents',
         },
         titles: {
           cn: '助手索引与提交',
@@ -42,8 +42,8 @@ export default [
       },
       {
         links: {
-          cn: 'https://github.com/lobehub/lobe-chat-plugins/blob/main/README.zh-CN.md',
-          en: 'https://github.com/lobehub/lobe-chat-plugins',
+          cn: 'https://github.com/aipmhub/aipm-chat-plugins/blob/main/README.zh-CN.md',
+          en: 'https://github.com/aipmhub/aipm-chat-plugins',
         },
         titles: {
           cn: '插件索引与提交',

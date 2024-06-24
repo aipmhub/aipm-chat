@@ -109,11 +109,11 @@ In this example, we demonstrate how to use `i18next` and related plugins to init
 
 We have already supported a variety of languages globally through the following efforts:
 
-- [✨ feat: adding Arabic Language Support #1049](https://github.com/lobehub/lobe-chat/pull/1049)
-- [🌐 style: Add Vietnamese files and add the vi-VN option in the General Settings #860](https://github.com/lobehub/lobe-chat/pull/860)
-- [🌐 style: support it-IT nl-NL and pl-PL locales #759](https://github.com/lobehub/lobe-chat/pull/759)
-- [🌐 feat(locale): Add fr-FR (#637) #645](https://github.com/lobehub/lobe-chat/pull/645)
-- [🌐 Add russian localy #137](https://github.com/lobehub/lobe-chat/pull/137)
+- [✨ feat: adding Arabic Language Support #1049](https://github.com/aipmhub/aipm-chat/pull/1049)
+- [🌐 style: Add Vietnamese files and add the vi-VN option in the General Settings #860](https://github.com/aipmhub/aipm-chat/pull/860)
+- [🌐 style: support it-IT nl-NL and pl-PL locales #759](https://github.com/aipmhub/aipm-chat/pull/759)
+- [🌐 feat(locale): Add fr-FR (#637) #645](https://github.com/aipmhub/aipm-chat/pull/645)
+- [🌐 Add russian localy #137](https://github.com/aipmhub/aipm-chat/pull/137)
 
 To add support for new languages, please refer to the detailed steps in the [New Locale Addition Guide](Add-New-Locale.en-US).
 

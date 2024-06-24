@@ -17,7 +17,7 @@ tags:
 
 一个 AiPMChat 的插件由以下几个部分组成：
 
-1. **插件索引**：用于展示插件的基本信息，包括插件名称、描述、作者、版本、插件描述清单的链接，官方的插件索引地址：[lobe-chat-plugins](https://github.com/lobehub/lobe-chat-plugins)。若想上架插件到官方插件市场，需要 [提交 PR](https://github.com/lobehub/lobe-chat-plugins/pulls) 到该仓库；
+1. **插件索引**：用于展示插件的基本信息，包括插件名称、描述、作者、版本、插件描述清单的链接，官方的插件索引地址：[lobe-chat-plugins](https://github.com/aipmhub/aipm-chat-plugins)。若想上架插件到官方插件市场，需要 [提交 PR](https://github.com/aipmhub/aipm-chat-plugins/pulls) 到该仓库；
 2. **插件描述清单 (manifest)**：用于描述插件的功能实现，包含了插件的服务端描述、前端展示信息、版本号等。关于 manifest 的详细介绍，详见 [manifest][manifest-docs-url]；
 3. **插件服务**：用于实现插件描述清单中所描述的服务端和前端模块，分别如下：
    - **服务端**：需要实现 manifest 中描述的 `api` 部分的接口能力；
@@ -235,7 +235,7 @@ export const config = {
 export default createLobeChatPluginGateway();
 ```
 
-[`@lobehub/chat-plugins-gateway`](https://github.com/lobehub/chat-plugins-gateway) 包含了 AiPMChat 中插件网关的[实现](https://github.com/lobehub/lobe-chat/blob/main/src/pages/api/plugins.api.ts)，你可以直接使用该包创建网关，进而让 AiPMChat 访问到本地的插件服务。
+[`@lobehub/chat-plugins-gateway`](https://github.com/lobehub/chat-plugins-gateway) 包含了 AiPMChat 中插件网关的[实现](https://github.com/aipmhub/aipm-chat/blob/main/src/pages/api/plugins.api.ts)，你可以直接使用该包创建网关，进而让 AiPMChat 访问到本地的插件服务。
 
 ### 插件 UI 界面
 
@@ -295,16 +295,16 @@ export default Render;
 
 当你完成插件的开发后，你可以使用你习惯的方式进行插件的部署。例如使用 vercel ，或者打包成 docker 发布等等。
 
-如果你希望插件被更多人使用，欢迎将你的插件 [提交上架](https://github.com/lobehub/lobe-chat-plugins) 到插件市场。
+如果你希望插件被更多人使用，欢迎将你的插件 [提交上架](https://github.com/aipmhub/aipm-chat-plugins) 到插件市场。
 
 [![][submit-plugin-shield]][submit-plugin-url]
 
 ### 插件 Shield
 
-[![lobe-chat-plugin](https://img.shields.io/badge/%F0%9F%A4%AF%20%26%20%F0%9F%A7%A9%20LobeHub-Plugin-95f3d9?labelColor=black&style=flat-square)](https://github.com/lobehub/lobe-chat-plugins)
+[![lobe-chat-plugin](https://img.shields.io/badge/%F0%9F%A4%AF%20%26%20%F0%9F%A7%A9%20LobeHub-Plugin-95f3d9?labelColor=black&style=flat-square)](https://github.com/aipmhub/aipm-chat-plugins)
 
 ```markdown
-[![lobe-chat-plugin](https://img.shields.io/badge/%F0%9F%A4%AF%20%26%20%F0%9F%A7%A9%20LobeHub-Plugin-95f3d9?labelColor=black&style=flat-square)](https://github.com/lobehub/lobe-chat-plugins)
+[![lobe-chat-plugin](https://img.shields.io/badge/%F0%9F%A4%AF%20%26%20%F0%9F%A7%A9%20LobeHub-Plugin-95f3d9?labelColor=black&style=flat-square)](https://github.com/aipmhub/aipm-chat-plugins)
 ```
 
 ## 链接
@@ -313,11 +313,11 @@ export default Render;
 - **🚀 chat-plugin-template**: [https://github.com/lobehub/chat-plugin-template](https://github.com/lobehub/chat-plugin-template)
 - **🧩 chat-plugin-sdk**: [https://github.com/lobehub/chat-plugin-sdk](https://github.com/lobehub/chat-plugin-sdk)
 - **🚪 chat-plugin-gateway**: [https://github.com/lobehub/chat-plugins-gateway](https://github.com/lobehub/chat-plugins-gateway)
-- **🏪 lobe-chat-plugins**: [https://github.com/lobehub/lobe-chat-plugins](https://github.com/lobehub/lobe-chat-plugins)
+- **🏪 lobe-chat-plugins**: [https://github.com/aipmhub/aipm-chat-plugins](https://github.com/aipmhub/aipm-chat-plugins)
 
 [fetch-plugin-message-url]: https://github.com/lobehub/chat-plugin-template
 [lobe-chat-plugin-template-url]: https://github.com/lobehub/chat-plugin-template
 [manifest-docs-url]: https://chat-plugin-sdk.lobehub.com/guides/plugin-manifest
 [plugin-error-type-url]: https://github.com/lobehub/chat-plugin-template
 [submit-plugin-shield]: https://img.shields.io/badge/🧩/🏪_submit_plugin-%E2%86%92-95f3d9?labelColor=black&style=for-the-badge
-[submit-plugin-url]: https://github.com/lobehub/lobe-chat-plugins
+[submit-plugin-url]: https://github.com/aipmhub/aipm-chat-plugins

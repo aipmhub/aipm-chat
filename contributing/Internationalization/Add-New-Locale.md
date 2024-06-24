@@ -51,7 +51,7 @@ This will utilize the `lobe-i18n` tool to process the language files.
 
 Once you have completed the above steps, you need to submit your changes and create a Pull Request.
 
-Ensure that you follow LobeChat's contribution guidelines and provide a necessary description to explain your changes. For example, refer to a similar previous Pull Request [#759](https://github.com/lobehub/lobe-chat/pull/759).
+Ensure that you follow LobeChat's contribution guidelines and provide a necessary description to explain your changes. For example, refer to a similar previous Pull Request [#759](https://github.com/aipmhub/aipm-chat/pull/759).
 
 ### Additional Information
 

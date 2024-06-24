@@ -1,6 +1,6 @@
 # 自部署保持更新
 
-[English](https://github.com/lobehub/lobe-chat/wiki/Upstream-Sync) | 简体中文
+[English](https://github.com/aipmhub/aipm-chat/wiki/Upstream-Sync) | 简体中文
 
 ## `A` Vercel / Zeabur 部署
 

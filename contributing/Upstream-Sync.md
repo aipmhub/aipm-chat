@@ -1,6 +1,6 @@
 # Upstream Sync
 
-English | [简体中文](https://github.com/lobehub/lobe-chat/wiki/Upstream-Sync.zh-CN)
+English | [简体中文](https://github.com/aipmhub/aipm-chat/wiki/Upstream-Sync.zh-CN)
 
 ## `A` Vercel / Zeabur Deployment
 
